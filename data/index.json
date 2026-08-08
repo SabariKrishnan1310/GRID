@@ -45,6 +45,17 @@
       "pinned": false,
       "created": "2026-08-08T10:00:00Z",
       "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "textbook-notes",
+      "title": "Structure of the Atom — Textbook Notes",
+      "subject": "chemistry",
+      "chapter": "ch4-structure-of-atom",
+      "tags": ["summary", "ncert-textbook", "definition"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
     }
   ]
 }
