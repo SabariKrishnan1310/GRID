@@ -9,238 +9,255 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-# Structure of the Atom — NCERT Exercise Questions & Solutions
-
-## Exercise 4.1
+## Exercise 4.1 — Q1
 
 ### Q1. What are the canal rays?
 
 **Answer:**
-Canal rays are positively charged rays discovered by **E. Goldstein** in 1886. When electric discharge is passed through a gas at low pressure in a discharge tube, positively charged rays are seen moving in the opposite direction to cathode rays. These are called **canal rays** or **anode rays**. They are actually streams of **positively charged ions**.
+- Discovered by **E. Goldstein** in 1886
+- When electric discharge is passed through gas at low pressure in discharge tube, positively charged rays are seen moving **opposite to cathode rays**
+- These are called **canal rays** or **anode rays**
+- Actually streams of **positively charged ions**
+- They carry **positive charge** with mass equal to the mass of the gas ion
 
 ---
+
+## Exercise 4.1 — Q2
 
 ### Q2. If an atom contains 1 proton, 1 neutron, and 1 electron, what will be the mass number of the atom?
 
 **Answer:**
-- Number of protons ($p$) = 1
-- Number of neutrons ($n$) = 1
-- Number of electrons ($e$) = 1
-
-$$
-\text{Mass number} (A) = p + n = 1 + 1 = 2
-$$
-
-**The mass number of the atom is 2.** (This is deuterium, an isotope of hydrogen.)
+- Protons (p) = 1, Neutrons (n) = 1, Electrons (e) = 1
+- Mass number (A) = p + n = 1 + 1 = **2**
+- This atom is **deuterium** (²H), an isotope of hydrogen
 
 ---
 
-## Exercise 4.2
+## Exercise 4.2 — Q1
 
-### Q1. If $Z = 3$, what would be the valency of the element? Also, name the element which has the same valency.
+### Q1. If Z = 3, what would be the valency of the element? Also, name the element which has the same valency.
 
 **Answer:**
-- Atomic number $Z = 3$ → the element is **Lithium (Li)**
+- Z = 3 → element is **Lithium (Li)**
 - Electronic configuration: K = 2, L = 1
-- Number of electrons in outermost shell = 1
-- Since it has 1 electron in the outermost shell, it tends to **lose 1 electron**
+- Outermost shell has **1 electron** → tends to **lose 1 electron**
 - **Valency = 1**
-- **Sodium (Na)** has the same valency (also valency = 1)
+- **Sodium (Na)** has the same valency (also valency = 1, also group 1)
 
 ---
+
+## Exercise 4.2 — Q2
 
 ### Q2. Name the element which has the same number of electrons as its outermost shell.
 
 **Answer:**
-This question is slightly ambiguous, but it refers to elements where the number of electrons equals the shell number. The most straightforward interpretation: elements whose outermost shell has the same number of electrons as the shell number itself.
-
-However, the NCERT answer is: **Helium** has the same number of electrons as its outermost shell number:
-- Helium: atomic number = 2
-- Shell K has 2 electrons
-- Shell number = 1, electrons = 2 (not same)
-
-The intended answer is: **Hydrogen** (1 electron, 1st shell) — but this doesn't quite work either.
-
-The most likely intended answer is: **Beryllium** — this question needs clarification. The standard NCERT answer provided is the element with the same number of electrons as its outermost shell, which typically refers to elements where valence electrons equal the period number.
+- This means: the element whose **total electron count equals its outermost shell electron count**
+- This happens only when the element has **only one shell** (K shell)
+- Element is **Hydrogen (H)**: 1 electron total, 1 electron in outermost (K) shell
+- Element is **Helium (He)**: 2 electrons total, 2 electrons in outermost (K) shell
+- **Answer: Hydrogen or Helium**
 
 ---
 
-## Exercise 4.3
+## Exercise 4.3 — Q1
 
 ### Q1. Write the electronic configuration of:
-(a) $Na^+$
-(b) $O^{2-}$
-(c) $Cl^-$
+(a) Na⁺
+(b) O²⁻
+(c) Cl⁻
 
 **Answer:**
 
-**(a) $Na^+$ (Sodium ion):**
-- Sodium atom: $Z = 11$
-- Electronic configuration of Na: K = 2, L = 8, M = 1
-- $Na^+$ has lost 1 electron from M shell
-- $Na^+$ configuration: **K = 2, L = 8**
+**(a) Na⁺ (Sodium ion):**
+- Na atom: Z = 11 → K = 2, L = 8, M = 1
+- Na⁺ loses 1 electron from M shell
+- Na⁺ configuration: **K = 2, L = 8** (same as Neon)
 
-**(b) $O^{2-}$ (Oxide ion):**
-- Oxygen atom: $Z = 8$
-- Electronic configuration of O: K = 2, L = 6
-- $O^{2-}$ has gained 2 electrons in L shell
-- $O^{2-}$ configuration: **K = 2, L = 8**
+**(b) O²⁻ (Oxide ion):**
+- O atom: Z = 8 → K = 2, L = 6
+- O²⁻ gains 2 electrons in L shell
+- O²⁻ configuration: **K = 2, L = 8** (same as Neon)
 
-**(c) $Cl^-$ (Chloride ion):**
-- Chlorine atom: $Z = 17$
-- Electronic configuration of Cl: K = 2, L = 8, M = 7
-- $Cl^-$ has gained 1 electron in M shell
-- $Cl^-$ configuration: **K = 2, L = 8, M = 8**
+**(c) Cl⁻ (Chloride ion):**
+- Cl atom: Z = 17 → K = 2, L = 8, M = 7
+- Cl⁻ gains 1 electron in M shell
+- Cl⁻ configuration: **K = 2, L = 8, M = 8** (same as Argon)
 
 ---
 
-## Exercise 4.4
+## Exercise 4.4 — Q1
 
 ### Q1. For the following ions, write the electronic configuration and also indicate the group and period:
-(a) $Na^+$
-(b) $Mg^{2+}$
-(c) $Al^{3+}$
-(d) $F^-$
-(e) $Cl^-$
+(a) Na⁺
+(b) Mg²⁺
+(c) Al³⁺
+(d) F⁻
+(e) Cl⁻
 
 **Answer:**
 
-**(a) $Na^+$:**
-- Configuration: K = 2, L = 8
-- This is the same as **Neon (Ne)**
-- Period: 2 (has 2 shells)
-- Group: 18 (noble gas configuration)
+**(a) Na⁺:**
+- Configuration: **K = 2, L = 8** (same as Ne)
+- Period: **2**, Group: **18**
 
-**(b) $Mg^{2+}$:**
-- Magnesium atom: K = 2, L = 8, M = 2
-- $Mg^{2+}$ loses 2 electrons from M shell
-- Configuration: K = 2, L = 8
-- Same as **Neon (Ne)**
-- Period: 2
-- Group: 18
+**(b) Mg²⁺:**
+- Mg atom: K = 2, L = 8, M = 2
+- Mg²⁺ loses 2 electrons from M shell
+- Configuration: **K = 2, L = 8** (same as Ne)
+- Period: **2**, Group: **18**
 
-**(c) $Al^{3+}$:**
-- Aluminium atom: K = 2, L = 8, M = 3
-- $Al^{3+}$ loses 3 electrons from M shell
-- Configuration: K = 2, L = 8
-- Same as **Neon (Ne)**
-- Period: 2
-- Group: 18
+**(c) Al³⁺:**
+- Al atom: K = 2, L = 8, M = 3
+- Al³⁺ loses 3 electrons from M shell
+- Configuration: **K = 2, L = 8** (same as Ne)
+- Period: **2**, Group: **18**
 
-**(d) $F^-$:**
-- Fluorine atom: K = 2, L = 7
-- $F^-$ gains 1 electron in L shell
-- Configuration: K = 2, L = 8
-- Same as **Neon (Ne)**
-- Period: 2
-- Group: 18
+**(d) F⁻:**
+- F atom: K = 2, L = 7
+- F⁻ gains 1 electron in L shell
+- Configuration: **K = 2, L = 8** (same as Ne)
+- Period: **2**, Group: **18**
 
-**(e) $Cl^-$:**
-- Chlorine atom: K = 2, L = 8, M = 7
-- $Cl^-$ gains 1 electron in M shell
-- Configuration: K = 2, L = 8, M = 8
-- Same as **Argon (Ar)**
-- Period: 3
-- Group: 18
-
-**Observation:** All these ions have stable noble gas configurations (octet complete).
+**(e) Cl⁻:**
+- Cl atom: K = 2, L = 8, M = 7
+- Cl⁻ gains 1 electron in M shell
+- Configuration: **K = 2, L = 8, M = 8** (same as Ar)
+- Period: **3**, Group: **18**
 
 ---
 
-## Exercise 4.5
+## Exercise 4.5 — Q1
 
 ### Q1. What is the relation between the atomic number and mass number?
 
 **Answer:**
-- **Atomic number (Z)** = Number of protons = Number of electrons (in neutral atom)
-- **Mass number (A)** = Number of protons + Number of neutrons
-
-Therefore:
-$$
-A = Z + n
-$$
-$$
-n = A - Z
-$$
-
-where $n$ = number of neutrons.
-
-The mass number is always **greater than or equal to** the atomic number. They are equal only when the atom has no neutrons (e.g., hydrogen-1: Z = 1, A = 1, n = 0).
+- Atomic number (Z) = number of protons
+- Mass number (A) = protons + neutrons
+- **A = Z + N**
+- Where N = number of neutrons
+- Mass number is always ≥ atomic number (equal only when no neutrons, e.g., ¹H)
 
 ---
+
+## Exercise 4.5 — Q2
 
 ### Q2. How will you find the number of neutrons from the atomic number and mass number?
 
 **Answer:**
-$$
-\text{Number of neutrons} = \text{Mass number} - \text{Atomic number}
-$$
-$$
-n = A - Z
-$$
-
-**Example:** For ${}_{6}^{12}C$:
-- $A = 12$, $Z = 6$
-- $n = 12 - 6 = 6$ neutrons
+- Number of neutrons = Mass number − Atomic number
+- **N = A − Z**
+- Example: For ¹²₆C: A = 12, Z = 6 → N = 12 − 6 = **6 neutrons**
 
 ---
 
-## In-Text Questions
+## In-Text Question 4.1 (Page 48)
 
-### Q1. (Page 48) What is the difference between an atom and a molecule?
+### Q1. What are canal rays?
 
 **Answer:**
-
-| Feature | Atom | Molecule |
-|---------|------|----------|
-| Definition | Smallest particle of an element | Smallest particle of a substance that exists freely |
-| Made of | May or may not have sub-atomic particles | Two or more atoms chemically bonded |
-| Can exist alone | Yes (e.g., He, Ne) | Yes (e.g., H₂O, CO₂) |
-| Example | Fe, O, Na | H₂O, CO₂, NaCl |
+- Same as Exercise 4.1 Q1
+- Positively charged rays discovered by Goldstein
+- Move opposite to cathode rays
+- Streams of positively charged ions
 
 ---
 
-### Q2. (Page 49) Define atomic number and mass number.
+## In-Text Question 4.2 (Page 49)
+
+### Q1. What is the use of cathode ray tubes?
 
 **Answer:**
-- **Atomic Number (Z):** The number of protons present in the nucleus of an atom. It is denoted by Z. Example: Carbon has Z = 6.
-- **Mass Number (A):** The sum of the number of protons and neutrons present in the nucleus of an atom. It is denoted by A. Example: Carbon-12 has A = 12.
+- Used in **television screens** (CRT TVs)
+- Used in **computer monitors** (older displays)
+- Cathode rays produce **fluorescence** when they hit a fluorescent screen
 
 ---
 
-### Q3. (Page 49) What are isotopes? Give two examples.
+## In-Text Question 4.3 (Page 49)
+
+### Q1. Define atomic number and mass number.
 
 **Answer:**
-**Isotopes** are atoms of the same element having the **same atomic number** but **different mass numbers**. They have the same number of protons but different number of neutrons.
-
-**Examples:**
-1. Hydrogen isotopes: Protium (${}_{1}^{1}H$), Deuterium (${}_{1}^{2}H$), Tritium (${}_{1}^{3}H$)
-2. Carbon isotopes: Carbon-12 (${}_{6}^{12}C$), Carbon-13 (${}_{6}^{13}C$), Carbon-14 (${}_{6}^{14}C$)
+- **Atomic number (Z)**: Number of protons in the nucleus of an atom. Denoted by Z. Example: Carbon has Z = 6.
+- **Mass number (A)**: Sum of protons and neutrons in the nucleus. Denoted by A. Example: Carbon-12 has A = 12.
 
 ---
 
-### Q4. (Page 49) Define valency. How is it determined?
+## In-Text Question 4.4 (Page 49)
+
+### Q1. What are isotopes? Give two examples.
 
 **Answer:**
-**Valency** is the combining capacity of an atom. It is determined by the number of electrons in the outermost shell (valence electrons).
-
-- If outermost shell has 1-4 electrons → valency = number of electrons (atom loses them)
-- If outermost shell has 5-7 electrons → valency = 8 − number of electrons (atom gains electrons to complete octet)
-- If outermost shell has 8 electrons → valency = 0 (noble gas, stable)
+- Atoms of the **same element** with **same atomic number** but **different mass numbers**
+- Same number of protons, different number of neutrons
+- Same chemical properties, different physical properties
+- **Examples:**
+  - Hydrogen: ¹H (Protium), ²H (Deuterium), ³H (Tritium)
+  - Carbon: ¹²C, ¹³C, ¹⁴C
+  - Chlorine: ³⁵Cl, ³⁷Cl
 
 ---
 
-### Q5. (Page 50) Write the electronic configuration of:
-(a) Carbon ($Z = 6$)
-(b) Nitrogen ($Z = 7$)
-(c) Oxygen ($Z = 8$)
-(d) Fluorine ($Z = 9$)
+## In-Text Question 4.5 (Page 50)
+
+### Q1. Define valency. How is it determined?
+
+**Answer:**
+- **Valency**: Combining capacity of an atom
+- Determined by **number of electrons in outermost shell** (valence electrons)
+- If outermost shell has **1-4 electrons** → valency = number of electrons (lose them)
+- If outermost shell has **5-7 electrons** → valency = 8 − electrons (gain to complete octet)
+- If outermost shell has **8 electrons** → valency = 0 (noble gas, inert)
+
+---
+
+## In-Text Question 4.6 (Page 50)
+
+### Q1. Write the electronic configuration of:
+(a) Carbon (Z = 6)
+(b) Nitrogen (Z = 7)
+(c) Oxygen (Z = 8)
+(d) Fluorine (Z = 9)
 
 **Answer:**
 
-| Element | Z | K shell | L shell | Configuration |
-|---------|---|---------|---------|---------------|
+| Element | Z | K | L | Configuration |
+|---------|---|---|---|---------------|
 | Carbon | 6 | 2 | 4 | 2, 4 |
 | Nitrogen | 7 | 2 | 5 | 2, 5 |
 | Oxygen | 8 | 2 | 6 | 2, 6 |
 | Fluorine | 9 | 2 | 7 | 2, 7 |
+
+---
+
+## In-Text Question 4.7 (Page 51)
+
+### Q1. What are isobars? Give examples.
+
+**Answer:**
+- Atoms of **different elements** with **same mass number** but **different atomic numbers**
+- Different elements, different chemical properties, same mass number
+- **Examples:**
+  - ⁴⁰₁₈Ar, ⁴⁰₁₉K, ⁴⁰₂₀Ca (all have mass number 40)
+  - ¹⁴₆C, ¹⁴₇N (both have mass number 14)
+
+---
+
+## In-Text Question 4.8 (Page 51)
+
+### Q1. If an element has 12 electrons, find its electronic configuration and the number of protons.
+
+**Answer:**
+- Element with 12 electrons = **Magnesium (Mg)**
+- Atomic number = number of protons = **12**
+- Configuration: **K = 2, L = 8, M = 2**
+
+---
+
+## In-Text Question 4.9 (Page 52)
+
+### Q1. What is the maximum number of electrons that can be accommodated in the K shell and L shell?
+
+**Answer:**
+- K shell (n = 1): Maximum = **2n² = 2(1)² = 2 electrons**
+- L shell (n = 2): Maximum = **2n² = 2(2)² = 8 electrons**
