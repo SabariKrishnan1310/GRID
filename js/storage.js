@@ -75,7 +75,11 @@ const GridStorage = (() => {
         let val = line.slice(colonIdx + 1).trim();
 
         if (val.startsWith('[') || val.startsWith('"')) {
-          try { val = JSON.parse(val); } catch {}
+          try { val = JSON.parse(val); } catch {
+            if (val.startsWith('[') && val.endsWith(']')) {
+              val = val.slice(1, -1).split(',').map(s => s.trim()).filter(Boolean);
+            }
+          }
         } else if (val === 'true') val = true;
         else if (val === 'false') val = false;
 
