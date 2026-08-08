@@ -148,7 +148,7 @@ const GridApp = (() => {
     if (notes.length === 0) {
       showEmptyState(subject, chapter);
     } else if (notes.length === 1) {
-      await openNote(notes[0].id);
+      await openNote(notes[0].id, subjectId, chapterId);
     } else {
       showNoteList(subject, chapter, notes);
     }
@@ -176,7 +176,7 @@ const GridApp = (() => {
         </div>
         <div class="note-list">
           ${notes.map(note => `
-            <button class="note-card" data-note-id="${note.id}">
+            <button class="note-card" data-note-id="${note.id}" data-subject="${subject.id}" data-chapter="${chapter.id}">
               ${note.color ? `<span class="note-card-color" style="background: var(--grid-label-${note.color})"></span>` : ''}
               <div class="note-card-body">
                 <h3 class="note-card-title">${note.title || note.id}</h3>
@@ -206,15 +206,15 @@ const GridApp = (() => {
     main.appendChild(listEl);
 
     listEl.querySelectorAll('.note-card').forEach(card => {
-      card.addEventListener('click', () => openNote(card.dataset.noteId));
+      card.addEventListener('click', () => openNote(card.dataset.noteId, card.dataset.subject, card.dataset.chapter));
     });
 
     if (typeof lucide !== 'undefined') lucide.createIcons();
   }
 
   // ── Open Note ──
-  async function openNote(noteId) {
-    const note = await GridStorage.loadNote(noteId);
+  async function openNote(noteId, subjectId, chapterId) {
+    const note = await GridStorage.loadNote(noteId, subjectId, chapterId);
     if (!note) return;
 
     _currentNote = note;
@@ -320,7 +320,7 @@ const GridApp = (() => {
       resultsEl.innerHTML = results.map(r => {
         const subject = _subjects.find(s => s.id === r.subject);
         return `
-          <button class="search-result" data-note-id="${r.id}">
+          <button class="search-result" data-note-id="${r.id}" data-subject="${r.subject}" data-chapter="${r.chapter}">
             <span class="search-result-icon" style="color: ${subject?.color || '#888'}">
               <i data-lucide="${subject?.icon || 'file-text'}" class="icon-xs"></i>
             </span>
@@ -337,7 +337,7 @@ const GridApp = (() => {
 
     resultsEl.querySelectorAll('.search-result').forEach(el => {
       el.addEventListener('click', () => {
-        openNote(el.dataset.noteId);
+        openNote(el.dataset.noteId, el.dataset.subject, el.dataset.chapter);
         resultsEl.classList.add('hidden');
         $('#search-input').value = '';
       });
@@ -365,7 +365,7 @@ const GridApp = (() => {
     if (hash) {
       const parts = hash.split('/');
       if (parts.length === 3) {
-        openNote(parts[2]);
+        openNote(parts[2], parts[0], parts[1]);
       }
     }
   }

@@ -35,7 +35,7 @@ const GridSearch = (() => {
 
       // Load note content for full-text search (lazy)
       if (contentScore === 0) {
-        const full = await GridStorage.loadNote(note.id);
+        const full = await GridStorage.loadNote(note.id, note.subject, note.chapter);
         if (full && full.content) {
           const contentLower = full.content.toLowerCase();
           const idx = contentLower.indexOf(q);

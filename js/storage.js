@@ -44,18 +44,23 @@ const GridStorage = (() => {
     return _index;
   }
 
-  async function loadNote(noteId) {
-    if (_noteCache.has(noteId)) return _noteCache.get(noteId);
+  async function loadNote(noteId, subjectId, chapterId) {
+    const cacheKey = `${subjectId || '*'}/${chapterId || '*'}/${noteId}`;
+    if (_noteCache.has(cacheKey)) return _noteCache.get(cacheKey);
 
     const index = await loadIndex();
-    const meta = index.notes.find(n => n.id === noteId);
+    const meta = index.notes.find(n =>
+      n.id === noteId &&
+      (!subjectId || n.subject === subjectId) &&
+      (!chapterId || n.chapter === chapterId)
+    );
     if (!meta) return null;
 
     const raw = await fetchText(`notes/${meta.subject}/${meta.chapter}/${noteId}.md`);
     if (!raw) return null;
 
     const note = parseNoteFrontmatter(raw, meta);
-    _noteCache.set(noteId, note);
+    _noteCache.set(cacheKey, note);
     return note;
   }
 
