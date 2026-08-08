@@ -1,5 +1,50 @@
 {
   "version": "1.0.0",
-  "generated": "2026-08-08T00:00:00Z",
-  "notes": []
+  "generated": "2026-08-08T10:00:00Z",
+  "notes": [
+    {
+      "id": "summary",
+      "title": "Structure of the Atom — Summary",
+      "subject": "chemistry",
+      "chapter": "ch4-structure-of-atom",
+      "tags": ["summary", "ncert-textbook", "important-chapter"],
+      "color": "green",
+      "pinned": true,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "concepts",
+      "title": "Structure of the Atom — Detailed Concepts",
+      "subject": "chemistry",
+      "chapter": "ch4-structure-of-atom",
+      "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "questions",
+      "title": "Structure of the Atom — NCERT Exercise Questions & Solutions",
+      "subject": "chemistry",
+      "chapter": "ch4-structure-of-atom",
+      "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
+      "color": "blue",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "important-questions",
+      "title": "Structure of the Atom — Formulas & Important Questions",
+      "subject": "chemistry",
+      "chapter": "ch4-structure-of-atom",
+      "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],
+      "color": "red",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    }
+  ]
 }

@@ -5,9 +5,12 @@
     "icon": "atom",
     "color": "#3B82F6",
     "chapters": [
+      { "id": "ch1-matter-surroundings", "name": "Ch.1 — Matter in Our Surroundings" },
       { "id": "ch7-motion", "name": "Ch.7 — Motion" },
       { "id": "ch8-force-and-laws", "name": "Ch.8 — Force & Laws of Motion" },
-      { "id": "ch10-mechanical-properties", "name": "Ch.10 — Mechanical Properties of Solids" }
+      { "id": "ch9-gravitation", "name": "Ch.9 — Gravitation" },
+      { "id": "ch10-work-energy", "name": "Ch.10 — Work and Energy" },
+      { "id": "ch11-sound", "name": "Ch.11 — Sound" }
     ]
   },
   {
@@ -16,7 +19,8 @@
     "icon": "flask-conical",
     "color": "#F59E0B",
     "chapters": [
-      { "id": "ch3-atoms-and-molecules", "name": "Ch.3 — Atoms & Molecules" },
+      { "id": "ch2-matter-pure", "name": "Ch.2 — Is Matter Around Us Pure?" },
+      { "id": "ch3-atoms-molecules", "name": "Ch.3 — Atoms & Molecules" },
       { "id": "ch4-structure-of-atom", "name": "Ch.4 — Structure of Atom" }
     ]
   },
@@ -26,8 +30,9 @@
     "icon": "leaf",
     "color": "#10B981",
     "chapters": [
-      { "id": "ch1-fundamental-unit-of-life", "name": "Ch.1 — Fundamental Unit of Life" },
-      { "id": "ch2-tissues", "name": "Ch.2 — Tissues" }
+      { "id": "ch5-fundamental-unit-life", "name": "Ch.5 — Fundamental Unit of Life" },
+      { "id": "ch6-tissues", "name": "Ch.6 — Tissues" },
+      { "id": "ch12-food-resources", "name": "Ch.12 — Improvement in Food Resources" }
     ]
   },
   {
@@ -43,7 +48,11 @@
       { "id": "ch5-euclids-geometry", "name": "Ch.5 — Euclid's Geometry" },
       { "id": "ch6-lines-and-angles", "name": "Ch.6 — Lines & Angles" },
       { "id": "ch7-triangles", "name": "Ch.7 — Triangles" },
-      { "id": "ch8-quadrilaterals", "name": "Ch.8 — Quadrilaterals" }
+      { "id": "ch8-quadrilaterals", "name": "Ch.8 — Quadrilaterals" },
+      { "id": "ch9-circles", "name": "Ch.9 — Circles" },
+      { "id": "ch10-herons-formula", "name": "Ch.10 — Heron's Formula" },
+      { "id": "ch11-surface-areas-volumes", "name": "Ch.11 — Surface Areas & Volumes" },
+      { "id": "ch12-statistics", "name": "Ch.12 — Statistics" }
     ]
   },
   {
@@ -52,12 +61,26 @@
     "icon": "globe",
     "color": "#EF4444",
     "chapters": [
-      { "id": "history-ch4", "name": "History Ch.4" },
-      { "id": "geography-ch2", "name": "Geography Ch.2" },
-      { "id": "pol-science-ch3", "name": "Political Science Ch.3" },
-      { "id": "pol-science-ch6", "name": "Political Science Ch.6" },
-      { "id": "pol-science-ch7", "name": "Political Science Ch.7" },
-      { "id": "economics-ch2", "name": "Economics Ch.2" }
+      { "id": "history-ch1-french-revolution", "name": "History Ch.1 — The French Revolution" },
+      { "id": "history-ch2-socialism-russia", "name": "History Ch.2 — Socialism & Russian Revolution" },
+      { "id": "history-ch3-nazism-hitler", "name": "History Ch.3 — Nazism & Rise of Hitler" },
+      { "id": "history-ch4-forest-colonialism", "name": "History Ch.4 — Forest Society & Colonialism" },
+      { "id": "history-ch5-pastoralists", "name": "History Ch.5 — Pastoralists in the Modern World" },
+      { "id": "geography-ch1-india-location", "name": "Geography Ch.1 — India: Size & Location" },
+      { "id": "geography-ch2-physical-features", "name": "Geography Ch.2 — Physical Features of India" },
+      { "id": "geography-ch3-drainage", "name": "Geography Ch.3 — Drainage" },
+      { "id": "geography-ch4-climate", "name": "Geography Ch.4 — Climate" },
+      { "id": "geography-ch5-vegetation-wildlife", "name": "Geography Ch.5 — Natural Vegetation & Wildlife" },
+      { "id": "geography-ch6-population", "name": "Geography Ch.6 — Population" },
+      { "id": "pol-science-ch1-democracy", "name": "Pol Science Ch.1 — What is Democracy?" },
+      { "id": "pol-science-ch2-constitutional-design", "name": "Pol Science Ch.2 — Constitutional Design" },
+      { "id": "pol-science-ch3-electoral-politics", "name": "Pol Science Ch.3 — Electoral Politics" },
+      { "id": "pol-science-ch4-institutions", "name": "Pol Science Ch.4 — Working of Institutions" },
+      { "id": "pol-science-ch5-democratic-rights", "name": "Pol Science Ch.5 — Democratic Rights" },
+      { "id": "economics-ch1-palampur", "name": "Economics Ch.1 — Village Palampur" },
+      { "id": "economics-ch2-people-resource", "name": "Economics Ch.2 — People as Resource" },
+      { "id": "economics-ch3-poverty", "name": "Economics Ch.3 — Poverty as a Challenge" },
+      { "id": "economics-ch4-food-security", "name": "Economics Ch.4 — Food Security in India" }
     ]
   },
   {

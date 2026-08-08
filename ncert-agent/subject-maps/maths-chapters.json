@@ -1,0 +1,260 @@
+{
+  "subject": "Mathematics",
+  "subject_id": "mathematics",
+  "total_chapters": 12,
+  "syllabus_year": "2025-26",
+  "marks_distribution": {
+    "unit_1_number_systems": 10,
+    "unit_2_algebra": 20,
+    "unit_3_coordinate_geometry": 4,
+    "unit_4_geometry": 27,
+    "unit_5_mensuration": 13,
+    "unit_6_statistics": 6,
+    "theory_total": 80,
+    "internal_assessment": 20,
+    "grand_total": 100
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "name": "Number Systems",
+      "chapter_id": "ch1-number-systems",
+      "unit": "I",
+      "unit_name": "Number Systems",
+      "subtopics": [
+        "Representation of Natural Numbers, Integers, Rational Numbers",
+        "Irrational Numbers",
+        "Real Numbers and Their Decimal Expansions",
+        "Operations on Real Numbers",
+        "Laws of Exponents for Real Numbers"
+      ],
+      "ncert_exercises": ["Exercise 1.1", "Exercise 1.2", "Exercise 1.3", "Exercise 1.4", "Exercise 1.5", "Exercise 1.6"],
+      "key_formulas": [
+        "√a × √b = √(ab)",
+        "a^m × a^n = a^(m+n)",
+        "(a^m)^n = a^(mn)",
+        "a^m / a^n = a^(m-n)",
+        "(ab)^n = a^n × b^n"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 2,
+      "name": "Polynomials",
+      "chapter_id": "ch2-polynomials",
+      "unit": "II",
+      "unit_name": "Algebra",
+      "subtopics": [
+        "Polynomials in One Variable",
+        "Zeros of a Polynomial",
+        "Remainder Theorem",
+        "Factor Theorem",
+        "Factorisation of Polynomials",
+        "Algebraic Identities"
+      ],
+      "ncert_exercises": ["Exercise 2.1", "Exercise 2.2", "Exercise 2.3", "Exercise 2.4", "Exercise 2.5"],
+      "key_formulas": [
+        "(x + y)² = x² + 2xy + y²",
+        "(x - y)² = x² - 2xy + y²",
+        "(x + y)(x - y) = x² - y²",
+        "(x + y + z)² = x² + y² + z² + 2xy + 2yz + 2zx",
+        "(x + y)³ = x³ + y³ + 3xy(x + y)",
+        "(x - y)³ = x³ - y³ - 3xy(x - y)",
+        "x³ + y³ = (x + y)(x² - xy + y²)",
+        "x³ - y³ = (x - y)(x² + xy + y²)",
+        "x³ + y³ + z³ - 3xyz = (x + y + z)(x² + y² + z² - xy - yz - zx)"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 3,
+      "name": "Coordinate Geometry",
+      "chapter_id": "ch3-coordinate-geometry",
+      "unit": "III",
+      "unit_name": "Coordinate Geometry",
+      "subtopics": [
+        "The Cartesian System",
+        "Coordinates of a Point",
+        "Plotting Points in the Plane"
+      ],
+      "ncert_exercises": ["Exercise 3.1", "Exercise 3.2", "Exercise 3.3"],
+      "key_formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 4,
+      "name": "Linear Equations in Two Variables",
+      "chapter_id": "ch4-linear-equations",
+      "unit": "II",
+      "unit_name": "Algebra",
+      "subtopics": [
+        "Linear Equations in One Variable (Recall)",
+        "Linear Equations in Two Variables",
+        "Solution of a Linear Equation",
+        "Graph of a Linear Equation in Two Variables"
+      ],
+      "ncert_exercises": ["Exercise 4.1", "Exercise 4.2", "Exercise 4.3", "Exercise 4.4"],
+      "key_formulas": [
+        "ax + by + c = 0 (standard form)",
+        "y = mx + c (slope-intercept form)"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 5,
+      "name": "Introduction to Euclid's Geometry",
+      "chapter_id": "ch5-euclids-geometry",
+      "unit": "IV",
+      "unit_name": "Geometry",
+      "subtopics": [
+        "History of Geometry in India and Greece",
+        "Euclid's Definitions, Axioms, and Postulates",
+        "The Five Postulates of Euclid",
+        "Equivalent Versions of the Fifth Postulate"
+      ],
+      "ncert_exercises": ["Exercise 5.1", "Exercise 5.2"],
+      "key_formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 6,
+      "name": "Lines and Angles",
+      "chapter_id": "ch6-lines-and-angles",
+      "unit": "IV",
+      "unit_name": "Geometry",
+      "subtopics": [
+        "Basic Terms and Definitions",
+        "Intersecting and Non-intersecting Lines",
+        "Pairs of Angles: Linear Pair, Vertically Opposite",
+        "Lines Parallel to the Same Line",
+        "Angle Sum Property of Triangle",
+        "Exterior Angle Property"
+      ],
+      "ncert_exercises": ["Exercise 6.1", "Exercise 6.2", "Exercise 6.3"],
+      "key_formulas": [
+        "Sum of angles on a straight line = 180°",
+        "Vertically opposite angles are equal",
+        "Corresponding angles are equal (parallel lines)",
+        "Alternate interior angles are equal (parallel lines)",
+        "Sum of angles of a triangle = 180°",
+        "Exterior angle = sum of two interior opposite angles"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 7,
+      "name": "Triangles",
+      "chapter_id": "ch7-triangles",
+      "unit": "IV",
+      "unit_name": "Geometry",
+      "subtopics": [
+        "Congruence of Triangles",
+        "Criteria for Congruence: SAS, ASA, SSS, RHS",
+        "Properties of a Triangle",
+        "Inequalities in a Triangle"
+      ],
+      "ncert_exercises": ["Exercise 7.1", "Exercise 7.2", "Exercise 7.3", "Exercise 7.4"],
+      "key_formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 8,
+      "name": "Quadrilaterals",
+      "chapter_id": "ch8-quadrilaterals",
+      "unit": "IV",
+      "unit_name": "Geometry",
+      "subtopics": [
+        "Properties of a Parallelogram",
+        "Conditions for a Quadrilateral to be a Parallelogram",
+        "The Mid-point Theorem",
+        "Types of Quadrilaterals"
+      ],
+      "ncert_exercises": ["Exercise 8.1", "Exercise 8.2"],
+      "key_formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 9,
+      "name": "Circles",
+      "chapter_id": "ch9-circles",
+      "unit": "IV",
+      "unit_name": "Geometry",
+      "subtopics": [
+        "Angle Subtended by a Chord at a Point",
+        "Perpendicular from Centre to a Chord",
+        "Equal Chords and Their Distances from Centre",
+        "Angle Subtended by an Arc",
+        "Cyclic Quadrilaterals"
+      ],
+      "ncert_exercises": ["Exercise 9.1", "Exercise 9.2", "Exercise 9.3"],
+      "key_formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 10,
+      "name": "Heron's Formula",
+      "chapter_id": "ch10-herons-formula",
+      "unit": "V",
+      "unit_name": "Mensuration",
+      "subtopics": [
+        "Area of a Triangle using Heron's Formula",
+        "Application of Heron's Formula"
+      ],
+      "ncert_exercises": ["Exercise 10.1", "Exercise 10.2"],
+      "key_formulas": [
+        "s = (a + b + c) / 2 (semi-perimeter)",
+        "Area = √[s(s - a)(s - b)(s - c)]"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 11,
+      "name": "Surface Areas and Volumes",
+      "chapter_id": "ch11-surface-areas-volumes",
+      "unit": "V",
+      "unit_name": "Mensuration",
+      "subtopics": [
+        "Surface Area of a Right Circular Cone",
+        "Surface Area of a Sphere",
+        "Volume of a Right Circular Cone",
+        "Volume of a Sphere"
+      ],
+      "ncert_exercises": ["Exercise 11.1", "Exercise 11.2", "Exercise 11.3", "Exercise 11.4"],
+      "key_formulas": [
+        "CSA of cone = πrl",
+        "TSA of cone = πr(r + l)",
+        "Volume of cone = ⅓πr²h",
+        "CSA of sphere = 4πr²",
+        "TSA of sphere = 4πr²",
+        "Volume of sphere = ⁴⁄₃πr³",
+        "Volume of hemisphere = ²⁄₃πr³",
+        "CSA of hemisphere = 2πr²"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 12,
+      "name": "Statistics",
+      "chapter_id": "ch12-statistics",
+      "unit": "VI",
+      "unit_name": "Statistics",
+      "subtopics": [
+        "Collection of Data",
+        "Presentation of Data: Tabular Form",
+        "Ungrouped and Grouped Data",
+        "Bar Graphs, Histograms, Frequency Polygons",
+        "Mean of Ungrouped Data",
+        "Median of Ungrouped Data",
+        "Mode of Ungrouped Data"
+      ],
+      "ncert_exercises": ["Exercise 12.1", "Exercise 12.2", "Exercise 12.3", "Exercise 12.4"],
+      "key_formulas": [
+        "Mean = Sum of all observations / Number of observations",
+        "Mean (x̄) = Σxᵢ / n",
+        "Median = Middle value when data is arranged in order",
+        "Mode = Most frequently occurring value"
+      ],
+      "deleted_topics": []
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "subject": "Social Science",
+  "subject_id": "social-science",
+  "total_chapters": 20,
+  "syllabus_year": "2025-26",
+  "disciplines": {
+    "history": {
+      "book": "India and the Contemporary World I",
+      "marks": 20,
+      "chapters": 5
+    },
+    "geography": {
+      "book": "Contemporary India I",
+      "marks": 20,
+      "chapters": 6
+    },
+    "political_science": {
+      "book": "Democratic Politics I",
+      "marks": 20,
+      "chapters": 5
+    },
+    "economics": {
+      "book": "Understanding Economic Development",
+      "marks": 20,
+      "chapters": 4
+    }
+  },
+  "chapters": [
+    {
+      "discipline": "history",
+      "number": 1,
+      "name": "The French Revolution",
+      "chapter_id": "history-ch1-french-revolution",
+      "subtopics": [
+        "The Ancient Regime and its Crises",
+        "Social Forces that Led to the Revolution",
+        "Different Revolutionary Groups and Ideas",
+        "The Legacy of the French Revolution"
+      ],
+      "key_concepts": [
+        "Estates: Clergy, Nobility, Commoners",
+        "Causes: financial crisis, social inequality, Enlightenment ideas",
+        "Storming of the Bastille (14 July 1789)",
+        "Declaration of the Rights of Man and Citizen",
+        "Rise of Napoleon Bonaparte",
+        "Ideas of Liberty, Equality, Fraternity"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "history",
+      "number": 2,
+      "name": "Socialism in Europe and the Russian Revolution",
+      "chapter_id": "history-ch2-socialism-russia",
+      "subtopics": [
+        "The Crisis of Tsarism",
+        "Social Movements between 1905 and 1917",
+        "The First World War and Foundation of the Soviet State",
+        "The Legacy of the Russian Revolution"
+      ],
+      "key_concepts": [
+        "Socialism: collective ownership of means of production",
+        "Marx and Engels: Communist theory",
+        "Russian Revolution of 1917",
+        "Lenin and the Bolshevik Party",
+        "Creation of USSR",
+        "Global influence of Russian Revolution"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "history",
+      "number": 3,
+      "name": "Nazism and the Rise of Hitler",
+      "chapter_id": "history-ch3-nazism-hitler",
+      "subtopics": [
+        "Growth of Social Democracy",
+        "Crises in Germany",
+        "Hitler's Rise to Power",
+        "Ideology of Nazism",
+        "Impact of Nazism"
+      ],
+      "key_concepts": [
+        "Weimar Republic and its weaknesses",
+        "Great Depression and its impact on Germany",
+        "Nazi Party and Hitler's ideology",
+        "Anti-Semitism and racial ideology",
+        "Second World War",
+        "Holocaust"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "history",
+      "number": 4,
+      "name": "Forest Society and Colonialism",
+      "chapter_id": "history-ch4-forest-colonialism",
+      "subtopics": [
+        "Relationship between Forests and Livelihoods",
+        "Changes in Forest Societies under Colonialism",
+        "Forest Management in India"
+      ],
+      "key_concepts": [
+        "Forests as resources for local communities",
+        "Colonial forest policies and their impact",
+        "Deforestation and its consequences",
+        "Forest communities and their resistance",
+        "Scientific forestry vs. traditional practices"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "history",
+      "number": 5,
+      "name": "Pastoralists in the Modern World",
+      "chapter_id": "history-ch5-pastoralists",
+      "subtopics": [
+        "Pastoralism as a Way of Life",
+        "Different Forms of Pastoralism",
+        "Impact of Colonialism and Modern States on Pastoralism"
+      ],
+      "key_concepts": [
+        "Nomadic and sedentary pastoralism",
+        "Pastoral communities of India",
+        "Colonial policies affecting pastoralists",
+        "Changes in the modern period",
+        "Impact on pastoral livelihoods"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "geography",
+      "number": 1,
+      "name": "India — Size and Location",
+      "chapter_id": "geography-ch1-india-location",
+      "subtopics": [
+        "Location of India",
+        "India and the World",
+        "India's Neighbours"
+      ],
+      "key_concepts": [
+        "India's latitude and longitude",
+        "Tropic of Cancer passes through India",
+        "India's position in Asia",
+        "Land boundaries and coastline",
+        "Neighbouring countries",
+        "Time zone (IST)"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "geography",
+      "number": 2,
+      "name": "Physical Features of India",
+      "chapter_id": "geography-ch2-physical-features",
+      "subtopics": [
+        "The Himalayan Mountains",
+        "The Northern Plains",
+        "The Peninsular Plateau",
+        "The Indian Desert",
+        "The Coastal Plains",
+        "The Islands"
+      ],
+      "key_concepts": [
+        "Major physiographic divisions of India",
+        "Himalayas: young fold mountains",
+        "Northern Plains: alluvial deposits",
+        "Deccan Plateau: ancient rock formations",
+        "Thar Desert: arid region",
+        "Western and Eastern Coastal Plains",
+        "Andaman and Nicobar Islands, Lakshadweep Islands"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "geography",
+      "number": 3,
+      "name": "Drainage",
+      "chapter_id": "geography-ch3-drainage",
+      "subtopics": [
+        "Drainage Systems in India",
+        "Himalayan and Peninsular Rivers",
+        "Lakes",
+        "Role of Rivers in the Economy",
+        "River Pollution"
+      ],
+      "key_concepts": [
+        "Drainage basin and water divide",
+        "Himalayan rivers: Indus, Ganga, Brahmaputra",
+        "Peninsular rivers: Godavari, Krishna, Mahanadi",
+        "East-flowing and west-flowing rivers",
+        "Lakes and their importance",
+        "River pollution and conservation"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "geography",
+      "number": 4,
+      "name": "Climate",
+      "chapter_id": "geography-ch4-climate",
+      "subtopics": [
+        "Climatic Controls",
+        "Factors Affecting India's Climate",
+        "The Indian Monsoon",
+        "Seasons in India",
+        "Distribution of Rainfall",
+        "Monsoon as a Unifying Bond"
+      ],
+      "key_concepts": [
+        "Latitude, altitude, pressure, winds as climatic controls",
+        "Monsoon mechanism",
+        "Seasons: Winter, Summer, Southwest Monsoon, Retreating Monsoon",
+        "Regional variations in rainfall",
+        "Monsoon and Indian agriculture",
+        "Floods and droughts"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "geography",
+      "number": 5,
+      "name": "Natural Vegetation and Wildlife",
+      "chapter_id": "geography-ch5-vegetation-wildlife",
+      "subtopics": [
+        "Factors Affecting Vegetation",
+        "Types of Vegetation in India",
+        "Wildlife in India",
+        "Conservation of Forest and Wildlife"
+      ],
+      "key_concepts": [
+        "Factors: relief, climate, soil",
+        "Types: Tropical Rainforest, Deciduous, Thorn, Montane, Tidal, Desert",
+        "Biodiversity of India",
+        "Endangered species",
+        "National Parks and Sanctuaries",
+        "Conservation efforts"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "geography",
+      "number": 6,
+      "name": "Population",
+      "chapter_id": "geography-ch6-population",
+      "subtopics": [
+        "Population Size and Distribution",
+        "Population Growth and Processes of Population Change",
+        "Age Composition, Sex Ratio, Literacy Rates",
+        "Occupational Structure",
+        "Health and Adolescent Population",
+        "National Population Policy"
+      ],
+      "key_concepts": [
+        "India's population distribution",
+        "Density of population",
+        "Population growth rate",
+        "Birth rate, death rate, migration",
+        "Sex ratio and literacy",
+        "Age structure: young population",
+        "National Population Policy 2000"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "political_science",
+      "number": 1,
+      "name": "What is Democracy? Why Democracy?",
+      "chapter_id": "pol-science-ch1-democracy",
+      "subtopics": [
+        "What is Democracy?",
+        "Why Democracy?"
+      ],
+      "key_concepts": [
+        "Definition of democracy",
+        "Features of democracy",
+        "Major decisions by elected leaders",
+        "Free and fair elections",
+        "Rights of citizens",
+        "Arguments for and against democracy"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "political_science",
+      "number": 2,
+      "name": "Constitutional Design",
+      "chapter_id": "pol-science-ch2-constitutional-design",
+      "subtopics": [
+        "Democratic Constitution in South Africa",
+        "Why Do We Need a Constitution?",
+        "Making of the Indian Constitution",
+        "Guiding Values of the Indian Constitution"
+      ],
+      "key_concepts": [
+        "South Africa's transition from apartheid",
+        "Purpose of a constitution",
+        "Constituent Assembly of India",
+        "Dr. B.R. Ambedkar and the Constitution",
+        "Preamble of Indian Constitution",
+        "Fundamental Rights and Duties"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "political_science",
+      "number": 3,
+      "name": "Electoral Politics",
+      "chapter_id": "pol-science-ch3-electoral-politics",
+      "subtopics": [
+        "Why Elections?",
+        "What Makes an Election Democratic?",
+        "System of Elections in India",
+        "What Makes Elections in India Democratic?"
+      ],
+      "key_concepts": [
+        "Elections in a democracy",
+        "Free and fair elections",
+        "Electoral system of India",
+        "Universal adult franchise",
+        "Election Commission of India",
+        "Political parties and elections"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "political_science",
+      "number": 4,
+      "name": "Working of Institutions",
+      "chapter_id": "pol-science-ch4-institutions",
+      "subtopics": [
+        "How is a Major Policy Decision Taken?",
+        "Need for Political Institutions",
+        "Parliament",
+        "Political Executive",
+        "Judiciary"
+      ],
+      "key_concepts": [
+        "Role of institutions in democracy",
+        "Parliament: Lok Sabha and Rajya Sabha",
+        "Prime Minister and Council of Ministers",
+        "President of India",
+        "Independent Judiciary",
+        "Check and balance system"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "political_science",
+      "number": 5,
+      "name": "Democratic Rights",
+      "chapter_id": "pol-science-ch5-democratic-rights",
+      "subtopics": [
+        "Life Without Rights",
+        "Rights in a Democracy",
+        "Expanding the Scope of Rights"
+      ],
+      "key_concepts": [
+        "Why are rights necessary?",
+        "Fundamental Rights in India",
+        "Right to Equality",
+        "Right to Freedom",
+        "Right against Exploitation",
+        "Right to Freedom of Religion",
+        "Cultural and Educational Rights",
+        "Right to Constitutional Remedies"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "economics",
+      "number": 1,
+      "name": "The Story of Village Palampur",
+      "chapter_id": "economics-ch1-palampur",
+      "subtopics": [
+        "Overview of Palampur",
+        "Organisation of Production",
+        "Farming in Palampur",
+        "Non-Farming Activities in Palampur"
+      ],
+      "key_concepts": [
+        "Factors of production: land, labour, capital, enterprise",
+        "Village economy: farming and non-farming",
+        "Multiple cropping and modern farming",
+        "Land distribution and farming conditions",
+        "Small scale manufacturing",
+        "Transport, shopkeeping, other services"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "economics",
+      "number": 2,
+      "name": "People as Resource",
+      "chapter_id": "economics-ch2-people-resource",
+      "subtopics": [
+        "Economic and Non-Economic Activities",
+        "Quality of Population",
+        "Unemployment"
+      ],
+      "key_concepts": [
+        "Population as a resource",
+        "Human capital: education and health",
+        "Economic activities vs. non-economic activities",
+        "Working population and dependency ratio",
+        "Types of unemployment",
+        "Education and health as investment"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "economics",
+      "number": 3,
+      "name": "Poverty as a Challenge",
+      "chapter_id": "economics-ch3-poverty",
+      "subtopics": [
+        "Two Typical Cases of Poverty",
+        "Poverty as Seen by Social Scientists",
+        "Poverty Line",
+        "Causes of Poverty",
+        "Anti-Poverty Measures",
+        "The Challenges Ahead"
+      ],
+      "key_concepts": [
+        "Poverty: meaning and measurement",
+        "Poverty line: calorie intake and consumption",
+        "Urban and rural poverty",
+        "Causes: unemployment, illiteracy, population growth",
+        "Anti-poverty programmes: MGNREGA, PMGSY",
+        "Vulnerability and poverty"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "discipline": "economics",
+      "number": 4,
+      "name": "Food Security in India",
+      "chapter_id": "economics-ch4-food-security",
+      "subtopics": [
+        "What is Food Security?",
+        "Why Food Security?",
+        "Who are Food-Insecure?",
+        "Food Security in India",
+        "Buffer Stock and Public Distribution System",
+        "Role of the Government in Food Security"
+      ],
+      "key_concepts": [
+        "Food security: availability, accessibility, affordability",
+        "Why food security is important",
+        "Food-insecure groups: landless, casual labourers, urban poor",
+        "Buffer stock: FCI procurement",
+        "Public Distribution System (PDS)",
+        "Role of government: subsidies, MSP, PDS reform"
+      ],
+      "deleted_topics": []
+    }
+  ]
+}

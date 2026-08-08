@@ -1,0 +1,437 @@
+{
+  "subject": "Science",
+  "subject_id": "science",
+  "total_chapters": 12,
+  "syllabus_year": "2025-26",
+  "marks_distribution": {
+    "unit_1_matter": 25,
+    "unit_2_living_world": 22,
+    "unit_3_motion_force_work": 27,
+    "unit_4_food_production": 6,
+    "theory_total": 80,
+    "internal_assessment": 20,
+    "grand_total": 100
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "name": "Matter in Our Surroundings",
+      "chapter_id": "ch1-matter-surroundings",
+      "subject_id": "physics",
+      "unit": "I",
+      "unit_name": "Matter - Its Nature and Behaviour",
+      "subtopics": [
+        "Definition of Matter",
+        "Particulate Nature of Matter",
+        "States of Matter: Solid, Liquid, Gas",
+        "Characteristics of States of Matter",
+        "Change of State: Melting, Freezing, Evaporation, Condensation, Sublimation",
+        "Cooling by Evaporation"
+      ],
+      "key_concepts": [
+        "Matter is anything that has mass and occupies space",
+        "Particles of matter are continuously moving",
+        "Particles of matter have space between them",
+        "Particles of matter attract each other",
+        "Interparticle forces of attraction",
+        "Evaporation causes cooling"
+      ],
+      "formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 2,
+      "name": "Is Matter Around Us Pure?",
+      "chapter_id": "ch2-matter-pure",
+      "subject_id": "chemistry",
+      "unit": "I",
+      "unit_name": "Matter - Its Nature and Behaviour",
+      "subtopics": [
+        "Elements, Compounds and Mixtures",
+        "Heterogeneous and Homogeneous Mixtures",
+        "Colloids and Suspensions",
+        "Pure and Impure Substances",
+        "Physical and Chemical Changes"
+      ],
+      "key_concepts": [
+        "Mixture contains two or more substances physically combined",
+        "Compound contains two or more substances chemically combined",
+        "Solution is a homogeneous mixture",
+        "Suspension is a heterogeneous mixture",
+        "Colloid exhibits Tyndall effect",
+        "Physical change does not produce new substance",
+        "Chemical change produces new substance"
+      ],
+      "formulas": [],
+      "deleted_topics": [
+        "Separation of Components of a Mixture (removed from 2025-26)"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Atoms and Molecules",
+      "chapter_id": "ch3-atoms-molecules",
+      "subject_id": "chemistry",
+      "unit": "I",
+      "unit_name": "Matter - Its Nature and Behaviour",
+      "subtopics": [
+        "Laws of Chemical Combination",
+        "What is an Atom?",
+        "What is a Molecule?",
+        "What is an Ion?",
+        "Writing Chemical Formulae",
+        "Molecular Mass and Mole Concept"
+      ],
+      "key_concepts": [
+        "Law of Conservation of Mass",
+        "Law of Constant Proportions",
+        "Atom is the smallest particle of an element",
+        "Molecule is a group of two or more atoms",
+        "Ion is an atom or molecule with a charge",
+        "Chemical formula represents composition of a compound",
+        "Molecular mass is sum of atomic masses",
+        "Mole concept relates mass to number of particles"
+      ],
+      "formulas": [
+        "Molecular mass = sum of atomic masses of all atoms",
+        "1 mole = 6.022 × 10²³ particles (Avogadro's number)"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 4,
+      "name": "Structure of the Atom",
+      "chapter_id": "ch4-structure-of-atom",
+      "subject_id": "chemistry",
+      "unit": "I",
+      "unit_name": "Matter - Its Nature and Behaviour",
+      "subtopics": [
+        "Charged Particles in Matter",
+        "The Structure of an Atom",
+        "Thomson's Model of Atom",
+        "Rutherford's Model of Atom",
+        "Bohr's Model of Atom",
+        "How are Electrons Distributed in Different Orbits?",
+        "Valency",
+        "Atomic Number and Mass Number",
+        "Isotopes and Isobars"
+      ],
+      "key_concepts": [
+        "Electron is negatively charged particle",
+        "Proton is positively charged particle",
+        "Neutron is neutral particle",
+        "Thomson: atom is positive sphere with electrons embedded",
+        "Rutherford: atom has dense nucleus with electrons orbiting",
+        "Alpha particle scattering experiment",
+        "Bohr: electrons revolve in fixed orbits/shells",
+        "Electron distribution in shells: 2, 8, 18, 32",
+        "Valency is combining capacity of an atom",
+        "Atomic Number = number of protons",
+        "Mass Number = protons + neutrons",
+        "Isotopes: same atomic number, different mass number",
+        "Isobars: same mass number, different atomic number"
+      ],
+      "formulas": [
+        "Atomic Number (Z) = Number of protons",
+        "Mass Number (A) = Number of protons + Number of neutrons",
+        "Number of neutrons = A - Z"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 5,
+      "name": "The Fundamental Unit of Life",
+      "chapter_id": "ch5-fundamental-unit-life",
+      "subject_id": "biology",
+      "unit": "II",
+      "unit_name": "Organization in the Living World",
+      "subtopics": [
+        "What are Living Organisms Made Up of?",
+        "What is a Cell Made Up of?",
+        "Cell Membrane and Cell Wall",
+        "Cell Organelles and Cell Inclusions",
+        "Functions of Cell Organelles",
+        "How do Substances Move in and out of the Cell?",
+        "Cell Division"
+      ],
+      "key_concepts": [
+        "Cell is the basic structural and functional unit of life",
+        "Prokaryotic cells lack defined nucleus",
+        "Eukaryotic cells have defined nucleus",
+        "Cell membrane is selectively permeable",
+        "Cell wall provides shape and protection (plants)",
+        "Nucleus controls cell activities",
+        "Mitochondria is powerhouse of cell",
+        "Chloroplast performs photosynthesis",
+        "Vacuoles store materials",
+        "Endoplasmic reticulum transports materials",
+        "Golgi apparatus packages and dispatches",
+        "Osmosis: movement of water through semipermeable membrane",
+        "Cell division: mitosis and meiosis"
+      ],
+      "formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 6,
+      "name": "Tissues",
+      "chapter_id": "ch6-tissues",
+      "subject_id": "biology",
+      "unit": "II",
+      "unit_name": "Organization in the Living World",
+      "subtopics": [
+        "Plant Tissues: Meristematic and Permanent",
+        "Animal Tissues: Epithelial, Connective, Muscular, Nervous",
+        "Structure and Functions of Each Tissue Type"
+      ],
+      "key_concepts": [
+        "Tissue is a group of cells with similar structure and function",
+        "Meristematic tissue: actively dividing cells",
+        "Permanent tissue: cells that have stopped dividing",
+        "Simple permanent tissue: Parenchyma, Collenchyma, Sclerenchyma",
+        "Complex permanent tissue: Xylem and Phloem",
+        "Xylem transports water and minerals",
+        "Phloem transports food",
+        "Epithelial tissue covers body surfaces",
+        "Connective tissue connects and supports",
+        "Muscular tissue enables movement",
+        "Nervous tissue transmits signals"
+      ],
+      "formulas": [],
+      "deleted_topics": []
+    },
+    {
+      "number": 7,
+      "name": "Motion",
+      "chapter_id": "ch7-motion",
+      "subject_id": "physics",
+      "unit": "III",
+      "unit_name": "Motion, Force and Work",
+      "subtopics": [
+        "Describing Motion: Distance, Displacement, Speed, Velocity",
+        "Measuring the Rate of Motion: Speed and Velocity",
+        "Rate of Change of Velocity: Acceleration",
+        "Graphical Representation of Motion: Distance-Time and Velocity-Time Graphs",
+        "Equations of Motion by Graphical Method",
+        "Uniform Circular Motion"
+      ],
+      "key_concepts": [
+        "Distance is total path length (scalar)",
+        "Displacement is shortest distance between two points (vector)",
+        "Speed = distance/time",
+        "Velocity = displacement/time",
+        "Acceleration = change in velocity/time",
+        "Uniform motion: constant speed in straight line",
+        "Non-uniform motion: changing speed",
+        "Distance-time graph: slope = speed",
+        "Velocity-time graph: slope = acceleration, area = displacement",
+        "Equations of motion: v = u + at, s = ut + ½at², v² = u² + 2as",
+        "Uniform circular motion: speed constant, direction changes"
+      ],
+      "formulas": [
+        "Speed = d/t",
+        "Velocity = s/t",
+        "Acceleration (a) = (v - u)/t",
+        "v = u + at",
+        "s = ut + ½at²",
+        "v² = u² + 2as",
+        "Average speed = total distance / total time",
+        "Average velocity = total displacement / total time"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 8,
+      "name": "Force and Laws of Motion",
+      "chapter_id": "ch8-force-and-laws",
+      "subject_id": "physics",
+      "unit": "III",
+      "unit_name": "Motion, Force and Work",
+      "subtopics": [
+        "Balanced and Unbalanced Forces",
+        "Newton's First Law of Motion",
+        "Inertia and Mass",
+        "Newton's Second Law of Motion",
+        "Newton's Third Law of Motion",
+        "Conservation of Momentum"
+      ],
+      "key_concepts": [
+        "Force is a push or pull that changes state of motion",
+        "Balanced forces: net force is zero, no change in motion",
+        "Unbalanced forces: net force is not zero, causes acceleration",
+        "First Law: object remains at rest or in uniform motion unless acted upon by unbalanced force",
+        "Inertia: tendency of body to resist change in state",
+        "Mass is measure of inertia",
+        "Second Law: F = ma (force equals mass times acceleration)",
+        "Momentum = mass × velocity (p = mv)",
+        "Third Law: every action has equal and opposite reaction",
+        "Conservation of Momentum: total momentum before = total momentum after"
+      ],
+      "formulas": [
+        "Force (F) = mass (m) × acceleration (a)",
+        "F = ma",
+        "Momentum (p) = mass (m) × velocity (v)",
+        "p = mv",
+        "Impulse = Force × time = change in momentum",
+        "F × t = mv - mu",
+        "m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂ (conservation of momentum)"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 9,
+      "name": "Gravitation",
+      "chapter_id": "ch9-gravitation",
+      "subject_id": "physics",
+      "unit": "III",
+      "unit_name": "Motion, Force and Work",
+      "subtopics": [
+        "Universal Law of Gravitation",
+        "Force of Gravitation of Earth (Gravity)",
+        "Acceleration Due to Gravity",
+        "Mass and Weight",
+        "Free Fall",
+        "Thrust and Pressure",
+        "Archimedes' Principle",
+        "Buoyancy",
+        "Relative Density"
+      ],
+      "key_concepts": [
+        "Every object attracts every other object with gravitational force",
+        "F = Gm₁m₂/r²",
+        "G = 6.673 × 10⁻¹¹ Nm²/kg²",
+        "Gravity is gravitational force of Earth on objects near its surface",
+        "g = 9.8 m/s² (acceleration due to gravity)",
+        "Weight = mg (force due to gravity)",
+        "Mass is constant; weight varies with gravity",
+        "Free fall: object falling under gravity alone",
+        "Thrust: perpendicular force on a surface",
+        "Pressure = thrust/area",
+        "Buoyant force: upward force on immersed object",
+        "Archimedes' Principle: buoyant force = weight of displaced fluid",
+        "Relative density = density of substance / density of water"
+      ],
+      "formulas": [
+        "F = Gm₁m₂/r²",
+        "G = 6.673 × 10⁻¹¹ Nm²/kg²",
+        "Weight (W) = mg",
+        "g = 9.8 m/s²",
+        "Pressure (P) = Force (F) / Area (A)",
+        "P = F/A",
+        "Upthrust = Weight of displaced fluid",
+        "Relative Density = Density of substance / Density of water"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 10,
+      "name": "Work and Energy",
+      "chapter_id": "ch10-work-energy",
+      "subject_id": "physics",
+      "unit": "III",
+      "unit_name": "Motion, Force and Work",
+      "subtopics": [
+        "Work: Definition and Calculation",
+        "Energy: Forms and Transformation",
+        "Kinetic Energy",
+        "Potential Energy",
+        "Law of Conservation of Energy",
+        "Power"
+      ],
+      "key_concepts": [
+        "Work done when force moves an object: W = Fs cos θ",
+        "Work is scalar quantity, unit: Joule (J)",
+        "Energy: capacity to do work",
+        "Kinetic Energy: energy of motion, KE = ½mv²",
+        "Potential Energy: stored energy due to position",
+        "Gravitational PE = mgh",
+        "Energy can neither be created nor destroyed, only transformed",
+        "Power: rate of doing work, P = W/t",
+        "Unit of power: Watt (W)"
+      ],
+      "formulas": [
+        "Work (W) = Force (F) × Displacement (s) × cos θ",
+        "W = Fs cos θ",
+        "Kinetic Energy (KE) = ½mv²",
+        "Potential Energy (PE) = mgh",
+        "Power (P) = Work (W) / Time (t)",
+        "P = W/t",
+        "1 Watt = 1 Joule/second"
+      ],
+      "deleted_topics": [
+        "Commercial Unit of Energy (removed from 2025-26)"
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Sound",
+      "chapter_id": "ch11-sound",
+      "subject_id": "physics",
+      "unit": "III",
+      "unit_name": "Motion, Force and Work",
+      "subtopics": [
+        "Production of Sound",
+        "Propagation of Sound",
+        "Characteristics of a Sound Wave",
+        "Speed of Sound in Different Media",
+        "Reflection of Sound: Echo",
+        "Range of Hearing",
+        "Applications of Ultrasound",
+        "SONAR",
+        "Structure of the Human Ear"
+      ],
+      "key_concepts": [
+        "Sound is produced by vibration of objects",
+        "Sound needs medium to travel (solid, liquid, gas)",
+        "Sound cannot travel in vacuum",
+        "Sound wave is longitudinal wave",
+        "Characteristics: amplitude, frequency, time period, wavelength",
+        "Pitch depends on frequency",
+        "Loudness depends on amplitude",
+        "Quality/timbre depends on waveform",
+        "Speed of sound: solid > liquid > gas",
+        "Echo: reflection of sound",
+        "Audible range: 20 Hz to 20,000 Hz",
+        "Ultrasound: frequency > 20,000 Hz",
+        "SONAR: Sound Navigation and Ranging"
+      ],
+      "formulas": [
+        "Frequency (ν) = 1/Time Period (T)",
+        "Speed (v) = distance / time",
+        "v = νλ (speed = frequency × wavelength)",
+        "Speed of sound in air ≈ 344 m/s at 22°C"
+      ],
+      "deleted_topics": []
+    },
+    {
+      "number": 12,
+      "name": "Improvement in Food Resources",
+      "chapter_id": "ch12-food-resources",
+      "subject_id": "biology",
+      "unit": "IV",
+      "unit_name": "Food; Food Production",
+      "subtopics": [
+        "Improvement in Crop Yields",
+        "Plant Breeding and Selection",
+        "Use of Fertilizers and Manures",
+        "Protection from Pests and Diseases",
+        "Improvement in Food Resources from Animals",
+        "Organic Farming",
+        "Storage of Food Grains"
+      ],
+      "key_concepts": [
+        "Crop variety improvement through breeding",
+        "HYV seeds: High Yielding Variety",
+        "Crop production improvement: irrigation, fertilizers, protection",
+        "Crop protection management: weeds, pests, diseases",
+        "Manure and fertilizers improve soil fertility",
+        "Organic farming avoids synthetic chemicals",
+        "Animal husbandry: cattle farming, poultry farming",
+        "Fisheries and bee-keeping",
+        "Storage of grains prevents losses"
+      ],
+      "formulas": [],
+      "deleted_topics": []
+    }
+  ]
+}
