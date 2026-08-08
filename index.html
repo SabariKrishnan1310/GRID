@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRID — Grade Research & Interactive Diary</title>
+  <meta name="description" content="9th grade notes app — organized by subject and chapter, powered by AI agents.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Marked.js -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+
+  <!-- Mermaid -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js"></script>
+
+  <!-- html2pdf -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+
+  <!-- App -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ═══════════════════════════════════════════
+       GRID — Grade Research & Interactive Diary
+       THESIS: Academic notes, agent-authored, beautifully rendered.
+       OWN-WORLD: Forest green tokens, clean split-view, Inter type.
+       STORY: Student opens app, sees organized subjects, reads rich notes.
+       FIRST VIEWPORT: Sidebar with subjects left, note content right.
+       FORM: Operate — task completion, no persuasion needed.
+       FINISH: unreviewed and undocumented is unfinished; this build ends
+               with the finish review, the verdict, and DESIGN.md.
+       ═══════════════════════════════════════════ -->
+
+  <div id="app" class="grid-app">
+    <!-- ── Sidebar ── -->
+    <aside id="sidebar" class="grid-sidebar" aria-label="Subjects">
+      <div class="sidebar-header">
+        <div class="logo-mark">
+          <img src="assets/grid-logo.svg" alt="GRID" class="logo-img">
+        </div>
+        <button id="sidebar-close" class="icon-btn sidebar-close-btn" aria-label="Close sidebar">
+          <i data-lucide="panel-left-close" class="icon-sm"></i>
+        </button>
+      </div>
+
+      <!-- Search -->
+      <div class="sidebar-search">
+        <div class="search-input-wrap">
+          <i data-lucide="search" class="icon-sm search-icon"></i>
+          <input type="text" id="search-input" class="search-input" placeholder="Search notes..." autocomplete="off" spellcheck="false">
+          <kbd class="search-kbd">/</kbd>
+        </div>
+        <div id="search-results" class="search-results hidden"></div>
+      </div>
+
+      <!-- Subject Tree -->
+      <nav id="subject-tree" class="subject-tree" aria-label="Subjects and chapters">
+        <!-- Populated by app.js -->
+      </nav>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <button id="theme-toggle" class="icon-btn theme-toggle" aria-label="Toggle dark mode">
+          <i data-lucide="sun" class="icon-sm theme-icon-light"></i>
+          <i data-lucide="moon" class="icon-sm theme-icon-dark"></i>
+        </button>
+        <span class="sidebar-footer-text">GRID v1.0</span>
+      </div>
+    </aside>
+
+    <!-- ── Sidebar Toggle (mobile) ── -->
+    <button id="sidebar-toggle" class="sidebar-toggle-btn" aria-label="Open sidebar">
+      <i data-lucide="panel-left" class="icon-sm"></i>
+    </button>
+
+    <!-- ── Main Content ── -->
+    <main id="main-content" class="grid-main">
+      <!-- Welcome State (shown when no note selected) -->
+      <div id="welcome-screen" class="welcome-screen">
+        <div class="welcome-inner">
+          <div class="welcome-logo">
+            <img src="assets/grid-logo.svg" alt="GRID" class="welcome-logo-img">
+          </div>
+          <h1 class="welcome-title">Grade Research & Interactive Diary</h1>
+          <p class="welcome-subtitle">Select a subject and chapter from the sidebar to start reading.</p>
+          <div class="welcome-stats" id="welcome-stats">
+            <!-- Populated by app.js -->
+          </div>
+          <div class="welcome-hint">
+            <kbd>/</kbd> to search &middot; <kbd>D</kbd> dark mode &middot; <kbd>E</kbd> export PDF
+          </div>
+        </div>
+      </div>
+
+      <!-- Note Viewer (shown when a note is selected) -->
+      <div id="note-viewer" class="note-viewer hidden">
+        <!-- Note Header -->
+        <header class="note-header">
+          <div class="note-header-left">
+            <span id="note-breadcrumb" class="note-breadcrumb"></span>
+            <h1 id="note-title" class="note-title"></h1>
+            <div class="note-meta">
+              <span id="note-date" class="note-date"></span>
+              <span id="note-wordcount" class="note-wordcount"></span>
+              <span id="note-tags" class="note-tags"></span>
+            </div>
+          </div>
+          <div class="note-header-right">
+            <button id="note-pin" class="icon-btn note-action-btn" title="Pin note">
+              <i data-lucide="pin" class="icon-sm"></i>
+            </button>
+            <button id="note-export" class="icon-btn note-action-btn" title="Export as PDF">
+              <i data-lucide="download" class="icon-sm"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Color Label Bar -->
+        <div id="note-color-bar" class="note-color-bar hidden"></div>
+
+        <!-- Note Content -->
+        <article id="note-content" class="note-content markdown-body">
+          <!-- Rendered HTML goes here -->
+        </article>
+      </div>
+
+      <!-- Empty State (subject selected but no notes) -->
+      <div id="empty-state" class="empty-state hidden">
+        <i data-lucide="file-text" class="empty-icon"></i>
+        <h2 class="empty-title">No notes yet</h2>
+        <p class="empty-text">This chapter doesn't have any notes yet.<br>The agent will publish them soon.</p>
+      </div>
+    </main>
+  </div>
+
+  <!-- ── Scripts ── -->
+  <script src="js/storage.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/export.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

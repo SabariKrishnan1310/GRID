@@ -1,0 +1,172 @@
+/* ============================================
+   GRID — Design Tokens
+   Forest Green Academic System
+   ============================================ */
+
+:root {
+  /* ── Primary Palette ── */
+  --grid-green-900: #0B2618;
+  --grid-green-800: #1B4332;
+  --grid-green-700: #2D6A4F;
+  --grid-green-600: #40916C;
+  --grid-green-500: #52B788;
+  --grid-green-400: #74C69D;
+  --grid-green-300: #95D5B2;
+  --grid-green-200: #B7E4C7;
+  --grid-green-100: #D8F3DC;
+  --grid-green-50:  #F0FFF4;
+
+  /* ── Neutrals ── */
+  --grid-gray-950: #0A0A0B;
+  --grid-gray-900: #111113;
+  --grid-gray-800: #1C1C1F;
+  --grid-gray-700: #2E2E33;
+  --grid-gray-600: #44444B;
+  --grid-gray-500: #62626B;
+  --grid-gray-400: #8E8E96;
+  --grid-gray-300: #B5B5BD;
+  --grid-gray-200: #D4D4DA;
+  --grid-gray-100: #ECECEF;
+  --grid-gray-50:  #F8F8FA;
+
+  /* ── Semantic Colors ── */
+  --grid-surface:       #FFFFFF;
+  --grid-surface-alt:   var(--grid-gray-50);
+  --grid-background:    var(--grid-gray-50);
+  --grid-border:        var(--grid-gray-200);
+  --grid-border-subtle: var(--grid-gray-100);
+  --grid-text:          var(--grid-gray-900);
+  --grid-text-secondary: var(--grid-gray-500);
+  --grid-text-tertiary: var(--grid-gray-400);
+  --grid-primary:       var(--grid-green-700);
+  --grid-primary-hover: var(--grid-green-600);
+  --grid-primary-active: var(--grid-green-800);
+  --grid-primary-soft:  var(--grid-green-100);
+  --grid-primary-muted: var(--grid-green-50);
+
+  /* ── Color Labels ── */
+  --grid-label-red:     #DC2626;
+  --grid-label-red-bg:  #FEF2F2;
+  --grid-label-green:   #16A34A;
+  --grid-label-green-bg:#F0FDF4;
+  --grid-label-yellow:  #CA8A04;
+  --grid-label-yellow-bg:#FEFCE8;
+  --grid-label-blue:    #2563EB;
+  --grid-label-blue-bg: #EFF6FF;
+  --grid-label-purple:  #9333EA;
+  --grid-label-purple-bg:#FAF5FF;
+
+  /* ── Subject Colors ── */
+  --grid-subject-physics:  #3B82F6;
+  --grid-subject-chemistry: #F59E0B;
+  --grid-subject-biology:  #10B981;
+  --grid-subject-math:     #8B5CF6;
+  --grid-subject-sst:      #EF4444;
+  --grid-subject-english:  #EC4899;
+  --grid-subject-kannada:  #F97316;
+  --grid-subject-ai:       #06B6D4;
+  --grid-subject-art:      #A855F7;
+
+  /* ── Typography ── */
+  --grid-font-sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --grid-font-mono:  'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  --grid-font-display: 'Inter', sans-serif;
+
+  /* ── Font Sizes ── */
+  --grid-text-xs:   0.75rem;
+  --grid-text-sm:   0.8125rem;
+  --grid-text-base: 0.9375rem;
+  --grid-text-lg:   1.125rem;
+  --grid-text-xl:   1.25rem;
+  --grid-text-2xl:  1.5rem;
+  --grid-text-3xl:  1.875rem;
+  --grid-text-4xl:  2.25rem;
+
+  /* ── Font Weights ── */
+  --grid-weight-normal: 400;
+  --grid-weight-medium: 500;
+  --grid-weight-semibold: 600;
+  --grid-weight-bold: 700;
+
+  /* ── Line Heights ── */
+  --grid-leading-tight:  1.25;
+  --grid-leading-snug:   1.375;
+  --grid-leading-normal: 1.6;
+  --grid-leading-relaxed:1.75;
+
+  /* ── Spacing ── */
+  --grid-space-0: 0;
+  --grid-space-1: 0.25rem;
+  --grid-space-2: 0.5rem;
+  --grid-space-3: 0.75rem;
+  --grid-space-4: 1rem;
+  --grid-space-5: 1.25rem;
+  --grid-space-6: 1.5rem;
+  --grid-space-8: 2rem;
+  --grid-space-10: 2.5rem;
+  --grid-space-12: 3rem;
+  --grid-space-16: 4rem;
+  --grid-space-20: 5rem;
+
+  /* ── Border Radius ── */
+  --grid-radius-sm:  4px;
+  --grid-radius-md:  6px;
+  --grid-radius-lg:  8px;
+  --grid-radius-xl:  12px;
+  --grid-radius-2xl: 16px;
+  --grid-radius-full:9999px;
+
+  /* ── Shadows ── */
+  --grid-shadow-xs:  0 1px 2px rgba(0,0,0,0.04);
+  --grid-shadow-sm:  0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --grid-shadow-md:  0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --grid-shadow-lg:  0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04);
+  --grid-shadow-xl:  0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
+
+  /* ── Transitions ── */
+  --grid-ease-out:   cubic-bezier(0.33, 1, 0.68, 1);
+  --grid-ease-in-out:cubic-bezier(0.65, 0, 0.35, 1);
+  --grid-duration-fast:   120ms;
+  --grid-duration-normal: 200ms;
+  --grid-duration-slow:   350ms;
+
+  /* ── Layout ── */
+  --grid-sidebar-width: 280px;
+  --grid-header-height: 56px;
+  --grid-content-max:   780px;
+
+  /* ── Z-Index ── */
+  --grid-z-sidebar: 100;
+  --grid-z-header:  200;
+  --grid-z-modal:   500;
+  --grid-z-tooltip: 600;
+}
+
+/* ── Dark Mode ── */
+[data-theme="dark"] {
+  --grid-surface:       var(--grid-gray-900);
+  --grid-surface-alt:   var(--grid-gray-800);
+  --grid-background:    var(--grid-gray-950);
+  --grid-border:        var(--grid-gray-700);
+  --grid-border-subtle: var(--grid-gray-800);
+  --grid-text:          var(--grid-gray-50);
+  --grid-text-secondary: var(--grid-gray-400);
+  --grid-text-tertiary: var(--grid-gray-500);
+  --grid-primary:       var(--grid-green-500);
+  --grid-primary-hover: var(--grid-green-400);
+  --grid-primary-active: var(--grid-green-600);
+  --grid-primary-soft:  rgba(82, 183, 136, 0.12);
+  --grid-primary-muted: rgba(82, 183, 136, 0.06);
+
+  --grid-label-red-bg:    rgba(220,38,38,0.12);
+  --grid-label-green-bg:  rgba(22,163,74,0.12);
+  --grid-label-yellow-bg: rgba(202,138,4,0.12);
+  --grid-label-blue-bg:   rgba(37,99,235,0.12);
+  --grid-label-purple-bg: rgba(147,51,234,0.12);
+
+  --grid-shadow-xs:  0 1px 2px rgba(0,0,0,0.2);
+  --grid-shadow-sm:  0 1px 3px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.2);
+  --grid-shadow-md:  0 4px 6px -1px rgba(0,0,0,0.35), 0 2px 4px -2px rgba(0,0,0,0.25);
+  --grid-shadow-lg:  0 10px 15px -3px rgba(0,0,0,0.4), 0 4px 6px -4px rgba(0,0,0,0.2);
+  --grid-shadow-xl:  0 20px 25px -5px rgba(0,0,0,0.4), 0 8px 10px -6px rgba(0,0,0,0.2);
+}

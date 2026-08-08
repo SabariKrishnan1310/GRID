@@ -1,0 +1,95 @@
+[
+  {
+    "id": "physics",
+    "name": "Physics",
+    "icon": "atom",
+    "color": "#3B82F6",
+    "chapters": [
+      { "id": "ch7-motion", "name": "Ch.7 — Motion" },
+      { "id": "ch8-force-and-laws", "name": "Ch.8 — Force & Laws of Motion" },
+      { "id": "ch10-mechanical-properties", "name": "Ch.10 — Mechanical Properties of Solids" }
+    ]
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "icon": "flask-conical",
+    "color": "#F59E0B",
+    "chapters": [
+      { "id": "ch3-atoms-and-molecules", "name": "Ch.3 — Atoms & Molecules" },
+      { "id": "ch4-structure-of-atom", "name": "Ch.4 — Structure of Atom" }
+    ]
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "icon": "leaf",
+    "color": "#10B981",
+    "chapters": [
+      { "id": "ch1-fundamental-unit-of-life", "name": "Ch.1 — Fundamental Unit of Life" },
+      { "id": "ch2-tissues", "name": "Ch.2 — Tissues" }
+    ]
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "icon": "sigma",
+    "color": "#8B5CF6",
+    "chapters": [
+      { "id": "ch1-number-systems", "name": "Ch.1 — Number Systems" },
+      { "id": "ch2-polynomials", "name": "Ch.2 — Polynomials" },
+      { "id": "ch3-coordinate-geometry", "name": "Ch.3 — Coordinate Geometry" },
+      { "id": "ch4-linear-equations", "name": "Ch.4 — Linear Equations in Two Variables" },
+      { "id": "ch5-euclids-geometry", "name": "Ch.5 — Euclid's Geometry" },
+      { "id": "ch6-lines-and-angles", "name": "Ch.6 — Lines & Angles" },
+      { "id": "ch7-triangles", "name": "Ch.7 — Triangles" },
+      { "id": "ch8-quadrilaterals", "name": "Ch.8 — Quadrilaterals" }
+    ]
+  },
+  {
+    "id": "social-science",
+    "name": "Social Science",
+    "icon": "globe",
+    "color": "#EF4444",
+    "chapters": [
+      { "id": "history-ch4", "name": "History Ch.4" },
+      { "id": "geography-ch2", "name": "Geography Ch.2" },
+      { "id": "pol-science-ch3", "name": "Political Science Ch.3" },
+      { "id": "pol-science-ch6", "name": "Political Science Ch.6" },
+      { "id": "pol-science-ch7", "name": "Political Science Ch.7" },
+      { "id": "economics-ch2", "name": "Economics Ch.2" }
+    ]
+  },
+  {
+    "id": "english",
+    "name": "English",
+    "icon": "book-open",
+    "color": "#EC4899",
+    "chapters": []
+  },
+  {
+    "id": "kannada",
+    "name": "Kannada",
+    "icon": "languages",
+    "color": "#F97316",
+    "chapters": []
+  },
+  {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "icon": "brain",
+    "color": "#06B6D4",
+    "chapters": [
+      { "id": "unit1-introduction", "name": "Unit 1 — Introduction to AI" },
+      { "id": "unit2-machine-learning", "name": "Unit 2 — Machine Learning" },
+      { "id": "unit3-neural-networks", "name": "Unit 3 — Neural Networks" }
+    ]
+  },
+  {
+    "id": "art",
+    "name": "Art",
+    "icon": "palette",
+    "color": "#A855F7",
+    "chapters": []
+  }
+]
