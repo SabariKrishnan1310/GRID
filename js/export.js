@@ -174,6 +174,9 @@ const GridExport = (() => {
       </div>
     `;
 
+    container.style.background = '#ffffff';
+    container.style.color = '#1A1A2E';
+
     const opt = {
       margin: [10, 10, 10, 10],
       filename: `${note.id}.pdf`,
@@ -182,6 +185,7 @@ const GridExport = (() => {
         scale: 2,
         useCORS: true,
         letterRendering: true,
+        backgroundColor: '#ffffff',
       },
       jsPDF: {
         unit: 'mm',
