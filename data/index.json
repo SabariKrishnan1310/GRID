@@ -111,6 +111,116 @@
       "pinned": false,
       "created": "2026-08-08T10:00:00Z",
       "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "summary",
+      "title": "Matter in Our Surroundings — Summary",
+      "subject": "physics",
+      "chapter": "ch1-matter-surroundings",
+      "tags": ["summary", "ncert-textbook", "important-chapter"],
+      "color": "green",
+      "pinned": true,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "textbook-notes",
+      "title": "Matter in Our Surroundings — Textbook Notes",
+      "subject": "physics",
+      "chapter": "ch1-matter-surroundings",
+      "tags": ["summary", "ncert-textbook", "definition"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "concepts",
+      "title": "Matter in Our Surroundings — Detailed Concepts",
+      "subject": "physics",
+      "chapter": "ch1-matter-surroundings",
+      "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "questions",
+      "title": "Matter in Our Surroundings — NCERT Exercise Questions & Solutions",
+      "subject": "physics",
+      "chapter": "ch1-matter-surroundings",
+      "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
+      "color": "blue",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "important-questions",
+      "title": "Matter in Our Surroundings — Formulas & Important Questions",
+      "subject": "physics",
+      "chapter": "ch1-matter-surroundings",
+      "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],
+      "color": "red",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "summary",
+      "title": "Motion — Summary",
+      "subject": "physics",
+      "chapter": "ch7-motion",
+      "tags": ["summary", "ncert-textbook", "important-chapter"],
+      "color": "green",
+      "pinned": true,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "textbook-notes",
+      "title": "Motion — Textbook Notes",
+      "subject": "physics",
+      "chapter": "ch7-motion",
+      "tags": ["summary", "ncert-textbook", "definition"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "concepts",
+      "title": "Motion — Detailed Concepts",
+      "subject": "physics",
+      "chapter": "ch7-motion",
+      "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "questions",
+      "title": "Motion — NCERT Exercise Questions & Solutions",
+      "subject": "physics",
+      "chapter": "ch7-motion",
+      "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
+      "color": "blue",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "important-questions",
+      "title": "Motion — Formulas & Important Questions",
+      "subject": "physics",
+      "chapter": "ch7-motion",
+      "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],
+      "color": "red",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
     }
   ]
 }
