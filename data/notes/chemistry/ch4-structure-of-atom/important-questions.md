@@ -1,5 +1,5 @@
 ---
-title: "Structure of the Atom — Formulas & Important Questions"
+title: "Structure of the Atom - Formulas & Important Questions"
 subject: chemistry
 chapter: ch4-structure-of-atom
 tags: [formula, example, board-exam-frequent, important-chapter]
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-# Structure of the Atom — Formulas & Important Questions
+# Structure of the Atom - Formulas & Important Questions
 
 ## Key Formulas
 

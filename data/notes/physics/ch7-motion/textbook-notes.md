@@ -1,5 +1,5 @@
 ---
-title: "Motion — Textbook Notes"
+title: "Motion - Textbook Notes"
 subject: physics
 chapter: ch7-motion
 tags: [summary, ncert-textbook, definition]
@@ -14,7 +14,7 @@ updated: 2026-08-08T10:00:00Z
 - **Motion**: Change in position of an object with respect to time and surroundings
 - An object is said to be in motion if its position changes with time
 - An object is at rest if its position does not change with time
-- Motion is relative — depends on the reference point chosen
+- Motion is relative - depends on the reference point chosen
 
 ## 7.2 Distance and Displacement
 
@@ -127,8 +127,8 @@ For an object moving with **uniform acceleration**:
 
 ## Activities
 
-**Activity 7.1**: Move along a straight line and observe motion — motion is relative to reference point
-**Activity 7.2**: Measure distance and displacement of a ball thrown up and caught — distance > displacement if ball returns
-**Activity 7.3**: Roll a ball on a tilted surface — observe non-uniform acceleration (speed increases as it rolls down)
-**Activity 7.4**: Plot distance-time graph for a toy car — straight line = uniform speed, curved line = non-uniform speed
-**Activity 7.5**: Move a stone in a circle while tied to a thread — observe that direction keeps changing even though speed is constant
+**Activity 7.1**: Move along a straight line and observe motion - motion is relative to reference point
+**Activity 7.2**: Measure distance and displacement of a ball thrown up and caught - distance > displacement if ball returns
+**Activity 7.3**: Roll a ball on a tilted surface - observe non-uniform acceleration (speed increases as it rolls down)
+**Activity 7.4**: Plot distance-time graph for a toy car - straight line = uniform speed, curved line = non-uniform speed
+**Activity 7.5**: Move a stone in a circle while tied to a thread - observe that direction keeps changing even though speed is constant

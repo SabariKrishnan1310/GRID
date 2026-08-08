@@ -1,5 +1,5 @@
 ---
-title: "Motion — Formulas & Important Questions"
+title: "Motion - Formulas & Important Questions"
 subject: physics
 chapter: ch7-motion
 tags: [formula, example, board-exam-frequent, important-chapter]

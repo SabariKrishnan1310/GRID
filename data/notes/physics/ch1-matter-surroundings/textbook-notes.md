@@ -1,5 +1,5 @@
 ---
-title: "Matter in Our Surroundings — Textbook Notes"
+title: "Matter in Our Surroundings - Textbook Notes"
 subject: physics
 chapter: ch1-matter-surroundings
 tags: [summary, ncert-textbook, definition]
@@ -79,7 +79,7 @@ updated: 2026-08-08T10:00:00Z
 
 ## 1.8 Evaporation
 
-- Surface phenomenon — liquid converts to gas at temperatures below boiling point
+- Surface phenomenon - liquid converts to gas at temperatures below boiling point
 - Occurs at all temperatures, not just at boiling point
 - Rate depends on: temperature, surface area, humidity, wind speed
 - **Cooling effect**: High-energy particles escape from surface, remaining liquid cools down
@@ -116,8 +116,8 @@ updated: 2026-08-08T10:00:00Z
 
 ## Activities
 
-**Activity 1.1**: Place an iron nail, a glass rod, a chalk piece, rubber, aluminium strip in different containers — all occupy space (all are matter)
-**Activity 1.2**: Pour water into different containers — takes shape of container but volume remains same
-**Activity 1.3**: Release aerosol can near a candle — gas pushes flame away (particles in gas move freely)
-**Activity 1.4**: Dissolve salt in water — volume of solution is less than sum of volumes of water and salt (particles have spaces between them)
-**Activity 1.5**: Observe steam rising from boiling water — gas particles have very high kinetic energy
+**Activity 1.1**: Place an iron nail, a glass rod, a chalk piece, rubber, aluminium strip in different containers - all occupy space (all are matter)
+**Activity 1.2**: Pour water into different containers - takes shape of container but volume remains same
+**Activity 1.3**: Release aerosol can near a candle - gas pushes flame away (particles in gas move freely)
+**Activity 1.4**: Dissolve salt in water - volume of solution is less than sum of volumes of water and salt (particles have spaces between them)
+**Activity 1.5**: Observe steam rising from boiling water - gas particles have very high kinetic energy

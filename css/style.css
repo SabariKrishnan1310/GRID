@@ -1,5 +1,5 @@
 /* ============================================
-   GRID — Main Stylesheet
+   GRID - Main Stylesheet
    Forest Green Academic Theme
    ============================================ */
 
@@ -339,6 +339,7 @@ img { max-width: 100%; height: auto; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--grid-space-2);
   padding: var(--grid-space-3) var(--grid-space-4);
   border-top: 1px solid var(--grid-border-subtle);
 }
@@ -346,6 +347,13 @@ img { max-width: 100%; height: auto; }
 .sidebar-footer-text {
   font-size: var(--grid-text-xs);
   color: var(--grid-text-tertiary);
+}
+
+.sidebar-footer-author {
+  font-size: var(--grid-text-2xs, 10px);
+  color: var(--grid-text-tertiary);
+  opacity: 0.85;
+  white-space: nowrap;
 }
 
 .theme-toggle {
@@ -444,6 +452,13 @@ img { max-width: 100%; height: auto; }
   color: var(--grid-text-secondary);
   margin-bottom: var(--grid-space-8);
   line-height: var(--grid-leading-relaxed);
+}
+
+.welcome-made {
+  font-size: var(--grid-text-sm);
+  color: var(--grid-text-tertiary);
+  margin-top: calc(-1 * var(--grid-space-6));
+  margin-bottom: var(--grid-space-6);
 }
 
 .welcome-stats {

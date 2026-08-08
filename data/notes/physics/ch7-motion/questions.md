@@ -1,5 +1,5 @@
 ---
-title: "Motion — NCERT Exercise Questions & Solutions"
+title: "Motion - NCERT Exercise Questions & Solutions"
 subject: physics
 chapter: ch7-motion
 tags: [homework, ncert-textbook, example, board-exam-frequent]
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-## Exercise 7.1 — Q1
+## Exercise 7.1 - Q1
 
 ### Q1. An object has moved through a distance. Can it have zero displacement? If so, support your answer with an example.
 
@@ -22,7 +22,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.1 — Q2
+## Exercise 7.1 - Q2
 
 ### Q2. A farmer moves along the boundary of a square field of side 10 m in 40 s. What will be the magnitude of displacement of the farmer at the end of 2 minutes 20 seconds?
 
@@ -37,7 +37,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.1 — Q3
+## Exercise 7.1 - Q3
 
 ### Q3. Under what condition(s) is the magnitude of average velocity of an object equal to its average speed?
 
@@ -50,7 +50,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.1 — Q4
+## Exercise 7.1 - Q4
 
 ### Q4. What does the odometer of an automobile measure?
 
@@ -61,7 +61,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.1 — Q5
+## Exercise 7.1 - Q5
 
 ### Q5. What does the path of an object look like when it is in uniform motion?
 
@@ -73,7 +73,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.1 — Q6
+## Exercise 7.1 - Q6
 
 ### Q6. During an experiment, a signal from a spaceship reached the ground station in 5 minutes. What was the distance of the spaceship from the ground station? (Speed of signal = 3 × 10⁸ m/s)
 
@@ -85,7 +85,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.2 — Q1
+## Exercise 7.2 - Q1
 
 ### Q1. When can we say that distance and displacement are the same?
 
@@ -96,7 +96,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.2 — Q2
+## Exercise 7.2 - Q2
 
 ### Q2. A bus decreases its speed from 80 km/h to 60 km/h in 5 s. Find the acceleration of the bus.
 
@@ -109,7 +109,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.2 — Q3
+## Exercise 7.2 - Q3
 
 ### Q3. A train starting from a railway station and moving with uniform acceleration attains a speed of 40 km/h in 10 minutes. Find the acceleration.
 
@@ -121,7 +121,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.2 — Q4
+## Exercise 7.2 - Q4
 
 ### Q4. A body moves along a straight line with a constant acceleration of 5 m/s². If its initial velocity is 2 m/s, find the distance covered in 10 seconds.
 
@@ -134,7 +134,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.2 — Q5
+## Exercise 7.2 - Q5
 
 ### Q5. The speed-time graph of a car is shown. Find the distance covered by the car in 10 seconds.
 
@@ -146,7 +146,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.3 — Q1
+## Exercise 7.3 - Q1
 
 ### Q1. When a satellite moves in a circular orbit around the Earth with uniform speed, is its motion uniform or non-uniform? Give reasons.
 
@@ -158,7 +158,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 7.3 — Q2
+## Exercise 7.3 - Q2
 
 ### Q2. The distance between two celestial bodies is very large. Which unit is suitable to express this distance?
 

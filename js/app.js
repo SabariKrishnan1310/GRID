@@ -1,5 +1,5 @@
 /* ============================================
-   GRID — App Controller
+   GRID - App Controller
    Main orchestrator: sidebar, nav, state
    ============================================ */
 
@@ -10,6 +10,17 @@ const GridApp = (() => {
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => document.querySelectorAll(sel);
+
+  // Resolve the chapter name for a note (used by PDF export)
+  function getChapterName(note) {
+    if (!note) return '';
+    const subject = _subjects.find(s => s.id === note.subject);
+    const chapter = subject?.chapters?.find(c => c.id === note.chapter);
+    if (chapter?.name) return chapter.name;
+    // Fallback: derive a readable name from the note title (drop the " - " suffix)
+    const parts = note.title ? note.title.split(' - ') : [];
+    return parts[0] || note.chapter || '';
+  }
 
   // ── Subject Icons (Lucide) ──
   const ICON_MAP = {
@@ -150,7 +161,7 @@ const GridApp = (() => {
     $('#note-viewer').classList.add('hidden');
     const empty = $('#empty-state');
     empty.classList.remove('hidden');
-    empty.querySelector('.empty-title').textContent = `${subject.name} — ${chapter.name}`;
+    empty.querySelector('.empty-title').textContent = `${subject.name} - ${chapter.name}`;
     empty.querySelector('.empty-text').innerHTML = 'No notes yet.<br>The agent will publish them soon.';
     if (typeof lucide !== 'undefined') lucide.createIcons();
   }
@@ -406,7 +417,7 @@ const GridApp = (() => {
       if (e.key === 'e' && !e.target.matches('input, textarea') && !e.ctrlKey && !e.metaKey) {
         if (_currentNote) {
           const rendered = $('#note-content').innerHTML;
-          GridExport.generatePDF(_currentNote, rendered);
+          GridExport.generatePDF(_currentNote, rendered, getChapterName(_currentNote));
         }
       }
     });
@@ -415,7 +426,7 @@ const GridApp = (() => {
     $('#note-export')?.addEventListener('click', () => {
       if (_currentNote) {
         const rendered = $('#note-content').innerHTML;
-        GridExport.generatePDF(_currentNote, rendered);
+        GridExport.generatePDF(_currentNote, rendered, getChapterName(_currentNote));
       }
     });
 

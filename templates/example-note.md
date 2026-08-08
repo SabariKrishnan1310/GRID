@@ -9,7 +9,7 @@ created: 2026-08-08T00:00:00Z
 updated: 2026-08-08T00:00:00Z
 ---
 
-# {Topic} — Worked Examples
+# {Topic} - Worked Examples
 
 ## Example 1: {Basic}
 

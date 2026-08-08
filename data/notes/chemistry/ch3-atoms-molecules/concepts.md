@@ -1,7 +1,7 @@
 ---
-title: "Atoms and Molecules — Detailed Concepts"
+title: "Atoms and Molecules - Detailed Concepts"
 subject: chemistry
-chapter: ch3-atoms-and-molecules
+chapter: ch3-atoms-molecules
 tags: [definition, ncert-textbook, important-chapter, board-exam-frequent]
 color: yellow
 pinned: false
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-# Atoms and Molecules — Detailed Concepts
+# Atoms and Molecules - Detailed Concepts
 
 ## 3.1 Laws of Chemical Combination
 
@@ -37,7 +37,7 @@ updated: 2026-08-08T10:00:00Z
 ## 3.2 What is an Atom?
 
 - **Atom**: The smallest particle of an element that retains its identity during chemical reactions
-  - Atoms are extremely small — radius is of the order of 10⁻¹⁰ m (1 angstrom, 1 Å)
+  - Atoms are extremely small - radius is of the order of 10⁻¹⁰ m (1 angstrom, 1 Å)
   - Size of hydrogen atom is approximately 10⁻¹¹ m
   - Largest atoms are those of francium and radium with a radius of about 3.6 × 10⁻¹⁰ m
   - Atoms are so small that they cannot be seen even with an optical microscope

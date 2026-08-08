@@ -1,7 +1,7 @@
 ---
-title: "Atoms and Molecules — Summary"
+title: "Atoms and Molecules - Summary"
 subject: chemistry
-chapter: ch3-atoms-and-molecules
+chapter: ch3-atoms-molecules
 tags: [summary, ncert-textbook, important-chapter]
 color: green
 pinned: true
@@ -24,7 +24,7 @@ updated: 2026-08-08T10:00:00Z
 ## What is an Atom?
 
 - Smallest particle of an element that takes part in a chemical reaction
-- Atoms are very small — radius = 10⁻¹⁰ m (1 angstrom)
+- Atoms are very small - radius = 10⁻¹⁰ m (1 angstrom)
 - Atoms are indivisible (in chemical reactions)
 - Dalton's Atomic Theory: atoms of same element are identical; compounds are formed by combination of atoms of different elements in simple ratio
 

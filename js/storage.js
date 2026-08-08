@@ -1,5 +1,5 @@
 /* ============================================
-   GRID — Storage Module
+   GRID - Storage Module
    Fetches index.json + individual note files
    ============================================ */
 

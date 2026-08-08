@@ -100,4 +100,4 @@ Return a structured JSON:
 3. Flag any discrepancies between sources
 4. Include page numbers where possible
 5. Note the exact NCERT language for definitions
-6. List ALL exercise questions — don't skip any
+6. List ALL exercise questions - don't skip any

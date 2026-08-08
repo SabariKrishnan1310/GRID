@@ -1,5 +1,5 @@
 ---
-title: "Structure of the Atom — Textbook Notes"
+title: "Structure of the Atom - Textbook Notes"
 subject: chemistry
 chapter: ch4-structure-of-atom
 tags: [summary, ncert-textbook, definition]
@@ -12,12 +12,12 @@ updated: 2026-08-08T10:00:00Z
 ## 4.1 Charged Particles in Matter
 
 - **Atom** consists of charged particles (subatomic particles)
-- **J.J. Thomson (1897)** discovered electron — cathode ray experiment
-- **Goldstein (1886)** discovered anode rays (canal rays) — positively charged particles
-- **Chadwick (1932)** discovered neutron — neutral particle, no charge
+- **J.J. Thomson (1897)** discovered electron - cathode ray experiment
+- **Goldstein (1886)** discovered anode rays (canal rays) - positively charged particles
+- **Chadwick (1932)** discovered neutron - neutral particle, no charge
 
 **Thomson's Model:**
-- Atom is neutral overall — equal number of positive and negative charges
+- Atom is neutral overall - equal number of positive and negative charges
 - Atom is a sphere of uniform positive charge with electrons embedded like seeds in a watermelon
 - Model called "plum pudding model"
 
@@ -30,7 +30,7 @@ updated: 2026-08-08T10:00:00Z
 
 ## 4.3 Rutherford's Atomic Model
 
-- **Rutherford (1911)** — alpha particle scattering experiment (Geiger-Marsden)
+- **Rutherford (1911)** - alpha particle scattering experiment (Geiger-Marsden)
 - **Alpha particles**: Helium nuclei (He²⁺), mass number 4, charge +2e
 - **Experiment**: Alpha particles fired at thin gold foil (0.00004 cm thick)
   - Most passed straight through
@@ -82,7 +82,7 @@ updated: 2026-08-08T10:00:00Z
   - Same atomic number, different mass number
   - Example: Hydrogen-1 (0 neutrons), Hydrogen-2 (1 neutron), Hydrogen-3 (2 neutrons)
 - **Isobars**: Atoms of different elements with same mass number but different atomic numbers
-  - Example: Argon-40, Calcium-40, Potassium-40 — all have mass number 40
+  - Example: Argon-40, Calcium-40, Potassium-40 - all have mass number 40
 
 ## 4.6 Atomic Number and Mass Number
 
@@ -123,7 +123,7 @@ updated: 2026-08-08T10:00:00Z
 ## 4.8 Valency
 
 - **Valency**: Combining capacity of an atom (number of electrons needed to complete octet)
-- Elements with complete outer shell (noble gases) are inert — valency 0
+- Elements with complete outer shell (noble gases) are inert - valency 0
 - Elements with 1-3 electrons in outer shell lose electrons to attain stability
 - Elements with 5-7 electrons in outer shell gain electrons to attain stability
 - Elements in 2nd shell have maximum valency of 4
@@ -145,9 +145,9 @@ updated: 2026-08-08T10:00:00Z
 
 **Activity 4.1**: Dissolve common salt in water → solution conducts electricity → ions present
 **Activity 4.2**: Dissolve sugar in water → solution does NOT conduct electricity → no ions
-**Activity 4.3**: Thomson's model experiment — electric discharge through gas produces colored light
-**Activity 4.4**: Rutherford's alpha particle scattering — most pass through, some deflect
-**Activity 4.5**: Bohr's model — observe line spectrum of hydrogen through spectroscope
+**Activity 4.3**: Thomson's model experiment - electric discharge through gas produces colored light
+**Activity 4.4**: Rutherford's alpha particle scattering - most pass through, some deflect
+**Activity 4.5**: Bohr's model - observe line spectrum of hydrogen through spectroscope
 **Activity 4.6**: Determine number of protons, neutrons, electrons from atomic notation
 
 ## Quick Formulas

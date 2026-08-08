@@ -1,5 +1,5 @@
 ---
-title: "Matter in Our Surroundings — NCERT Exercise Questions & Solutions"
+title: "Matter in Our Surroundings - NCERT Exercise Questions & Solutions"
 subject: physics
 chapter: ch1-matter-surroundings
 tags: [homework, ncert-textbook, example, board-exam-frequent]
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-## Exercise 1.1 — Q1
+## Exercise 1.1 - Q1
 
 ### Q1. Convert the following temperatures to the Kelvin scale:
 (a) 25°C
@@ -22,7 +22,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q2
+## Exercise 1.1 - Q2
 
 ### Q2. Give reasons:
 (a) A wooden table should be called a solid.
@@ -38,7 +38,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q3
+## Exercise 1.1 - Q3
 
 ### Q3. Ice at 273 K produces more cooling effect than water at 273 K. Why?
 
@@ -50,7 +50,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q4
+## Exercise 1.1 - Q4
 
 ### Q4. Why do we see water droplets on the outer surface of a glass tumbler containing ice cold water?
 
@@ -62,7 +62,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q5
+## Exercise 1.1 - Q5
 
 ### Q5. At what temperature does water boil on Mount Everest?
 
@@ -74,7 +74,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q6
+## Exercise 1.1 - Q6
 
 ### Q6. Why does the temperature of a substance remain constant during its melting point or boiling point?
 
@@ -86,7 +86,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q7
+## Exercise 1.1 - Q7
 
 ### Q7. Arrange the following in the order of increasing forces of attraction: water, sugar, oxygen.
 
@@ -99,7 +99,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q8
+## Exercise 1.1 - Q8
 
 ### Q8. What is the physical state of water at:
 (a) 25°C
@@ -113,7 +113,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q9
+## Exercise 1.1 - Q9
 
 ### Q9. Why is water at 4°C more dense than water at 0°C?
 
@@ -126,7 +126,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q10
+## Exercise 1.1 - Q10
 
 ### Q10. Suggest two methods to liquefy a gas.
 
@@ -137,14 +137,14 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q11
+## Exercise 1.1 - Q11
 
 ### Q11. Give reasons:
 (a) Naphthalene balls disappear with time without leaving any solid.
 (b) We can get the smell of perfume sitting several metres away.
 
 **Answer:**
-- **(a)** Naphthalene undergoes **sublimation** — changes directly from solid to gas without becoming liquid
+- **(a)** Naphthalene undergoes **sublimation** - changes directly from solid to gas without becoming liquid
   - The solid naphthalene particles gain energy and escape directly into air as gas
 - **(b)** Perfume particles undergo **evaporation** and **diffusion**
   - Liquid perfume evaporates into gas
@@ -153,7 +153,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 1.1 — Q12
+## Exercise 1.1 - Q12
 
 ### Q12. Convert:
 (a) 373.15 K to °C

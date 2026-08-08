@@ -9,7 +9,7 @@ created: 2026-08-08T00:00:00Z
 updated: 2026-08-08T00:00:00Z
 ---
 
-# {Title — Topic Name}
+# {Title - Topic Name}
 
 ## Diagram
 

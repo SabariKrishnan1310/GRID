@@ -1,5 +1,5 @@
 ---
-title: "Structure of the Atom — Summary"
+title: "Structure of the Atom - Summary"
 subject: chemistry
 chapter: ch4-structure-of-atom
 tags: [summary, ncert-textbook, important-chapter]
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-# Structure of the Atom — Summary
+# Structure of the Atom - Summary
 
 ## Key Concepts
 
@@ -19,7 +19,7 @@ updated: 2026-08-08T10:00:00Z
 | 2 | Thomson's Model | Atom is a positively charged sphere with electrons embedded like seeds in a watermelon |
 | 3 | Rutherford's Model | Atom has a dense, positively charged nucleus with electrons revolving around it |
 | 4 | Bohr's Model | Electrons revolve in fixed circular orbits (shells) at specific energy levels |
-| 5 | Electron Distribution | Shells: K(2), L(8), M(18), N(32) — maximum capacity = 2n² |
+| 5 | Electron Distribution | Shells: K(2), L(8), M(18), N(32) - maximum capacity = 2n² |
 | 6 | Valency | Combining capacity of an atom; determined by electrons in outermost shell |
 | 7 | Atomic Number | Number of protons = atomic number (Z) |
 | 8 | Mass Number | Protons + neutrons = mass number (A) |
@@ -94,8 +94,8 @@ graph TD
 ## Quick Revision Points
 
 - Atom has three sub-atomic particles: electron, proton, neutron
-- Thomson's model: plum pudding model — positive sphere with electrons
-- Rutherford's model: nuclear model — dense nucleus with orbiting electrons
+- Thomson's model: plum pudding model - positive sphere with electrons
+- Rutherford's model: nuclear model - dense nucleus with orbiting electrons
 - Bohr's model: fixed orbits with specific energy levels
 - Electron distribution: K=2, L=8, M=18, N=32
 - Valency = electrons needed to complete octet (or lose extra electrons)
@@ -106,7 +106,7 @@ graph TD
 
 ## Study Tips
 
-- Practice drawing all three atomic models — this is frequently asked
+- Practice drawing all three atomic models - this is frequently asked
 - Memorize electronic configurations of elements 1-20
 - Understand the difference between isotopes and isobars with examples
 - Know the rules for electron filling: 2n² maximum per shell, 8 in outermost

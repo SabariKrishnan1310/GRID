@@ -117,7 +117,7 @@ Format:
 
 ```markdown
 ---
-title: "[Chapter Name] — [Note Type]"
+title: "[Chapter Name] - [Note Type]"
 subject: social-science
 chapter: [chapter-id]
 tags: [tags-from-vocabulary]

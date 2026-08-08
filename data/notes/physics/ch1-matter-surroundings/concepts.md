@@ -1,5 +1,5 @@
 ---
-title: "Matter in Our Surroundings — Detailed Concepts"
+title: "Matter in Our Surroundings - Detailed Concepts"
 subject: physics
 chapter: ch1-matter-surroundings
 tags: [definition, ncert-textbook, important-chapter, board-exam-frequent]
@@ -9,9 +9,9 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-# Matter in Our Surroundings — Detailed Concepts
+# Matter in Our Surroundings - Detailed Concepts
 
-## 1.1 Matter — Definition and Properties
+## 1.1 Matter - Definition and Properties
 
 - **Matter**: Anything that occupies space and has mass is called matter
   - Matter exists in various forms: solid, liquid, gas, plasma, Bose-Einstein condensate

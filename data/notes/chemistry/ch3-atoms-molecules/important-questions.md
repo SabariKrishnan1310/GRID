@@ -1,7 +1,7 @@
 ---
-title: "Atoms and Molecules — Formulas & Important Questions"
+title: "Atoms and Molecules - Formulas & Important Questions"
 subject: chemistry
-chapter: ch3-atoms-and-molecules
+chapter: ch3-atoms-molecules
 tags: [formula, example, board-exam-frequent, important-chapter]
 color: red
 pinned: false

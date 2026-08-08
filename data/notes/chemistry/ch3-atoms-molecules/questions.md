@@ -1,7 +1,7 @@
 ---
-title: "Atoms and Molecules — NCERT Exercise Questions & Solutions"
+title: "Atoms and Molecules - NCERT Exercise Questions & Solutions"
 subject: chemistry
-chapter: ch3-atoms-and-molecules
+chapter: ch3-atoms-molecules
 tags: [homework, ncert-textbook, example, board-exam-frequent]
 color: blue
 pinned: false
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-## Exercise 3.1 — Q1
+## Exercise 3.1 - Q1
 
 ### Q1. In a reaction, 5.3 g of sodium carbonate reacted with 6 g of acetic acid. The products were 2.2 g of carbon dioxide, 0.9 g of water and 8.2 g of sodium acetate. Show that these observations are in agreement with the Law of Conservation of Mass.
 
@@ -21,7 +21,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.1 — Q2
+## Exercise 3.1 - Q2
 
 ### Q2. Hydrogen and oxygen combine in the ratio of 1:8 by mass to form water. What mass of oxygen gas would be required to react completely with 3 g of hydrogen gas?
 
@@ -32,7 +32,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.1 — Q3
+## Exercise 3.1 - Q3
 
 ### Q3. Which postulate of Dalton's atomic theory is the result of the law of conservation of mass?
 
@@ -43,7 +43,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.1 — Q4
+## Exercise 3.1 - Q4
 
 ### Q4. Which postulate of Dalton's atomic theory explains the law of constant proportions?
 
@@ -53,7 +53,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.2 — Q1
+## Exercise 3.2 - Q1
 
 ### Q1. Define the term atomic mass unit.
 
@@ -65,19 +65,19 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.2 — Q2
+## Exercise 3.2 - Q2
 
 ### Q2. Why is it not possible to see an atom with naked eyes?
 
 **Answer:**
-- Atoms are extremely small — radius of the order of 10⁻¹⁰ m (1 Å)
+- Atoms are extremely small - radius of the order of 10⁻¹⁰ m (1 Å)
 - Even the largest atoms (like francium) have a radius of only about 3.6 × 10⁻¹⁰ m
 - This is far too small to be visible to the naked eye
 - Cannot be seen even with an optical microscope
 
 ---
 
-## Exercise 3.3 — Q1
+## Exercise 3.3 - Q1
 
 ### Q1. How do atoms exist?
 
@@ -89,7 +89,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.3 — Q2
+## Exercise 3.3 - Q2
 
 ### Q2. Name the elements present in:
 (a) Water
@@ -103,7 +103,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.4 — Q1
+## Exercise 3.4 - Q1
 
 ### Q1. Write down the formulae of:
 (a) Sodium oxide
@@ -119,7 +119,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.4 — Q2
+## Exercise 3.4 - Q2
 
 ### Q2. Write down the chemical names of:
 (a) H₂O
@@ -135,7 +135,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.4 — Q3
+## Exercise 3.4 - Q3
 
 ### Q3. Give the names of the elements present in the following compounds:
 (a) Quicklime
@@ -149,7 +149,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.5 — Q1
+## Exercise 3.5 - Q1
 
 ### Q1. Calculate the molecular masses of:
 (a) H₂, O₂, Cl₂, CO₂, CH₄, C₂H₅OH, NH₃, CH₃OH
@@ -166,7 +166,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.5 — Q2
+## Exercise 3.5 - Q2
 
 ### Q2. Calculate the formula unit masses of:
 (a) NaCl, K₂SO₄, CaCl₂, Fe₂O₃, Al₂(SO₄)₃
@@ -180,7 +180,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.6 — Q1
+## Exercise 3.6 - Q1
 
 ### Q1. If one mole of carbon atoms weighs 12 g, what is the mass of one atom of carbon?
 
@@ -191,7 +191,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 3.6 — Q2
+## Exercise 3.6 - Q2
 
 ### Q2. Which has more number of atoms, 10 g of nitrogen or 10 g of ammonia?
 

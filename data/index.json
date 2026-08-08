@@ -4,7 +4,7 @@
   "notes": [
     {
       "id": "summary",
-      "title": "Structure of the Atom — Summary",
+      "title": "Structure of the Atom - Summary",
       "subject": "chemistry",
       "chapter": "ch4-structure-of-atom",
       "tags": ["summary", "ncert-textbook", "important-chapter"],
@@ -15,7 +15,7 @@
     },
     {
       "id": "concepts",
-      "title": "Structure of the Atom — Detailed Concepts",
+      "title": "Structure of the Atom - Detailed Concepts",
       "subject": "chemistry",
       "chapter": "ch4-structure-of-atom",
       "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
@@ -26,7 +26,7 @@
     },
     {
       "id": "questions",
-      "title": "Structure of the Atom — NCERT Exercise Questions & Solutions",
+      "title": "Structure of the Atom - NCERT Exercise Questions & Solutions",
       "subject": "chemistry",
       "chapter": "ch4-structure-of-atom",
       "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
@@ -37,7 +37,7 @@
     },
     {
       "id": "important-questions",
-      "title": "Structure of the Atom — Formulas & Important Questions",
+      "title": "Structure of the Atom - Formulas & Important Questions",
       "subject": "chemistry",
       "chapter": "ch4-structure-of-atom",
       "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],
@@ -48,7 +48,7 @@
     },
     {
       "id": "textbook-notes",
-      "title": "Structure of the Atom — Textbook Notes",
+      "title": "Structure of the Atom - Textbook Notes",
       "subject": "chemistry",
       "chapter": "ch4-structure-of-atom",
       "tags": ["summary", "ncert-textbook", "definition"],
@@ -59,9 +59,9 @@
     },
     {
       "id": "summary",
-      "title": "Atoms and Molecules — Summary",
+      "title": "Atoms and Molecules - Summary",
       "subject": "chemistry",
-      "chapter": "ch3-atoms-and-molecules",
+      "chapter": "ch3-atoms-molecules",
       "tags": ["summary", "ncert-textbook", "important-chapter"],
       "color": "green",
       "pinned": true,
@@ -70,9 +70,9 @@
     },
     {
       "id": "textbook-notes",
-      "title": "Atoms and Molecules — Textbook Notes",
+      "title": "Atoms and Molecules - Textbook Notes",
       "subject": "chemistry",
-      "chapter": "ch3-atoms-and-molecules",
+      "chapter": "ch3-atoms-molecules",
       "tags": ["summary", "ncert-textbook", "definition"],
       "color": "yellow",
       "pinned": false,
@@ -81,9 +81,9 @@
     },
     {
       "id": "concepts",
-      "title": "Atoms and Molecules — Detailed Concepts",
+      "title": "Atoms and Molecules - Detailed Concepts",
       "subject": "chemistry",
-      "chapter": "ch3-atoms-and-molecules",
+      "chapter": "ch3-atoms-molecules",
       "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
       "color": "yellow",
       "pinned": false,
@@ -92,9 +92,9 @@
     },
     {
       "id": "questions",
-      "title": "Atoms and Molecules — NCERT Exercise Questions & Solutions",
+      "title": "Atoms and Molecules - NCERT Exercise Questions & Solutions",
       "subject": "chemistry",
-      "chapter": "ch3-atoms-and-molecules",
+      "chapter": "ch3-atoms-molecules",
       "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
       "color": "blue",
       "pinned": false,
@@ -103,9 +103,9 @@
     },
     {
       "id": "important-questions",
-      "title": "Atoms and Molecules — Formulas & Important Questions",
+      "title": "Atoms and Molecules - Formulas & Important Questions",
       "subject": "chemistry",
-      "chapter": "ch3-atoms-and-molecules",
+      "chapter": "ch3-atoms-molecules",
       "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],
       "color": "red",
       "pinned": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "summary",
-      "title": "Matter in Our Surroundings — Summary",
+      "title": "Matter in Our Surroundings - Summary",
       "subject": "physics",
       "chapter": "ch1-matter-surroundings",
       "tags": ["summary", "ncert-textbook", "important-chapter"],
@@ -125,7 +125,7 @@
     },
     {
       "id": "textbook-notes",
-      "title": "Matter in Our Surroundings — Textbook Notes",
+      "title": "Matter in Our Surroundings - Textbook Notes",
       "subject": "physics",
       "chapter": "ch1-matter-surroundings",
       "tags": ["summary", "ncert-textbook", "definition"],
@@ -136,7 +136,7 @@
     },
     {
       "id": "concepts",
-      "title": "Matter in Our Surroundings — Detailed Concepts",
+      "title": "Matter in Our Surroundings - Detailed Concepts",
       "subject": "physics",
       "chapter": "ch1-matter-surroundings",
       "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
@@ -147,7 +147,7 @@
     },
     {
       "id": "questions",
-      "title": "Matter in Our Surroundings — NCERT Exercise Questions & Solutions",
+      "title": "Matter in Our Surroundings - NCERT Exercise Questions & Solutions",
       "subject": "physics",
       "chapter": "ch1-matter-surroundings",
       "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
@@ -158,7 +158,7 @@
     },
     {
       "id": "important-questions",
-      "title": "Matter in Our Surroundings — Formulas & Important Questions",
+      "title": "Matter in Our Surroundings - Formulas & Important Questions",
       "subject": "physics",
       "chapter": "ch1-matter-surroundings",
       "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],
@@ -169,7 +169,7 @@
     },
     {
       "id": "summary",
-      "title": "Motion — Summary",
+      "title": "Motion - Summary",
       "subject": "physics",
       "chapter": "ch7-motion",
       "tags": ["summary", "ncert-textbook", "important-chapter"],
@@ -180,7 +180,7 @@
     },
     {
       "id": "textbook-notes",
-      "title": "Motion — Textbook Notes",
+      "title": "Motion - Textbook Notes",
       "subject": "physics",
       "chapter": "ch7-motion",
       "tags": ["summary", "ncert-textbook", "definition"],
@@ -191,7 +191,7 @@
     },
     {
       "id": "concepts",
-      "title": "Motion — Detailed Concepts",
+      "title": "Motion - Detailed Concepts",
       "subject": "physics",
       "chapter": "ch7-motion",
       "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
@@ -202,7 +202,7 @@
     },
     {
       "id": "questions",
-      "title": "Motion — NCERT Exercise Questions & Solutions",
+      "title": "Motion - NCERT Exercise Questions & Solutions",
       "subject": "physics",
       "chapter": "ch7-motion",
       "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
@@ -213,7 +213,7 @@
     },
     {
       "id": "important-questions",
-      "title": "Motion — Formulas & Important Questions",
+      "title": "Motion - Formulas & Important Questions",
       "subject": "physics",
       "chapter": "ch7-motion",
       "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],

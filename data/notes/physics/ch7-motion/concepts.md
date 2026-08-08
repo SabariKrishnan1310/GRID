@@ -1,5 +1,5 @@
 ---
-title: "Motion — Detailed Concepts"
+title: "Motion - Detailed Concepts"
 subject: physics
 chapter: ch7-motion
 tags: [definition, ncert-textbook, important-chapter, board-exam-frequent]
@@ -9,12 +9,12 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-# Motion — Detailed Concepts
+# Motion - Detailed Concepts
 
 ## 7.1 Introduction to Motion
 
 - **Motion**: An object is said to be in motion if its position changes with respect to time and its surroundings
-  - Motion is relative — depends on the observer's frame of reference
+  - Motion is relative - depends on the observer's frame of reference
   - An object that appears stationary to one observer may be in motion to another
   - Example: A passenger in a moving train appears stationary to another passenger but is in motion to a person standing outside
 
@@ -25,7 +25,7 @@ updated: 2026-08-08T10:00:00Z
 ## 7.2 Distance and Displacement
 
 - **Distance**: The total path length covered by an object during its motion
-  - Scalar quantity — has only magnitude, no direction
+  - Scalar quantity - has only magnitude, no direction
   - Always positive (or zero)
   - SI unit: metre (m)
   - Depends on the actual path taken
@@ -33,7 +33,7 @@ updated: 2026-08-08T10:00:00Z
   - Total distance = 5 + 3 = 8 km
 
 - **Displacement**: The shortest straight-line distance from the initial position to the final position of an object
-  - Vector quantity — has both magnitude and direction
+  - Vector quantity - has both magnitude and direction
   - Can be positive, negative, or zero
   - SI unit: metre (m)
   - Depends only on initial and final positions, not on the path taken
@@ -46,7 +46,7 @@ updated: 2026-08-08T10:00:00Z
 
 - **Speed**: The distance covered by an object per unit time
   - Speed = Distance / Time
-  - Scalar quantity — has only magnitude
+  - Scalar quantity - has only magnitude
   - SI unit: m/s (also km/h, cm/s)
   - Conversion: 1 m/s = 3.6 km/h
   - **Uniform speed**: An object covers equal distances in equal intervals of time
@@ -55,7 +55,7 @@ updated: 2026-08-08T10:00:00Z
 
 - **Velocity**: The displacement of an object per unit time
   - Velocity = Displacement / Time = Δs / Δt
-  - Vector quantity — has both magnitude and direction
+  - Vector quantity - has both magnitude and direction
   - SI unit: m/s
   - **Uniform velocity**: An object undergoes equal displacements in equal intervals of time
   - **Non-uniform velocity**: An object undergoes unequal displacements in equal intervals of time

@@ -1,5 +1,5 @@
 ---
-title: "Matter in Our Surroundings — Formulas & Important Questions"
+title: "Matter in Our Surroundings - Formulas & Important Questions"
 subject: physics
 chapter: ch1-matter-surroundings
 tags: [formula, example, board-exam-frequent, important-chapter]

@@ -82,7 +82,7 @@ Format:
 
 ```markdown
 ---
-title: "[Chapter Name] — [Note Type]"
+title: "[Chapter Name] - [Note Type]"
 subject: [subject-id]
 chapter: [chapter-id]
 tags: [tags-from-vocabulary]

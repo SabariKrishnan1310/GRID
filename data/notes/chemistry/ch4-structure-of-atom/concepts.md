@@ -1,5 +1,5 @@
 ---
-title: "Structure of the Atom — Detailed Concepts"
+title: "Structure of the Atom - Detailed Concepts"
 subject: chemistry
 chapter: ch4-structure-of-atom
 tags: [definition, ncert-textbook, important-chapter, board-exam-frequent]
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-# Structure of the Atom — Detailed Concepts
+# Structure of the Atom - Detailed Concepts
 
 ## 1. Charged Particles in Matter
 
@@ -99,7 +99,7 @@ updated: 2026-08-08T10:00:00Z
 - **Drawbacks of Rutherford's Model:**
   - **Stability problem**: A charged particle in circular motion should lose energy continuously (according to Maxwell's electromagnetic theory)
     - Electrons should spiral into the nucleus and atom should collapse
-      - But atoms are stable — this was not explained
+      - But atoms are stable - this was not explained
   - **Line spectra**: Could not explain why atoms emit light at specific wavelengths only
 
 ## 4. Bohr's Model of Atom (1913)

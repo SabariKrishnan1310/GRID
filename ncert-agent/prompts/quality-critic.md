@@ -61,7 +61,7 @@ REJECTED: The note does not meet the NCERT reference bar.
 BIGGEST GAP: [One sentence describing the single most important issue]
 
 Specific issues:
-1. [Issue 1 — be specific about what's wrong and where]
+1. [Issue 1 - be specific about what's wrong and where]
 2. [Issue 2]
 3. [Issue 3 (if applicable)]
 

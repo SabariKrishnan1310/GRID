@@ -9,11 +9,11 @@
 
 Before starting any work, classify the task:
 
-1. **What subject?** — Science, Mathematics, or Social Science
-2. **What chapter?** — Look up in `subject-maps/` for exact chapter ID and subtopics
-3. **What note types?** — Summary, Concepts (nested bullets), Questions & Solutions, Formulas
-4. **What's my knowledge state?** — Do I have the NCERT content, or do I need to fetch it?
-5. **What's the output format?** — Follow GRID format from `AGENT.md` and `SKILL.md` in parent directory
+1. **What subject?** - Science, Mathematics, or Social Science
+2. **What chapter?** - Look up in `subject-maps/` for exact chapter ID and subtopics
+3. **What note types?** - Summary, Concepts (nested bullets), Questions & Solutions, Formulas
+4. **What's my knowledge state?** - Do I have the NCERT content, or do I need to fetch it?
+5. **What's the output format?** - Follow GRID format from `AGENT.md` and `SKILL.md` in parent directory
 
 ---
 
@@ -38,10 +38,10 @@ Every note goes through this pipeline:
 ### Phase 1: Research (Fetch NCERT Content)
 
 For each chapter, gather:
-- **NCERT textbook content** — paragraph-by-paragraph from the official PDF
-- **NCERT solutions** — all exercise questions with answers
-- **Syllabus topics** — exact topics from CBSE 2025-26 curriculum
-- **Deleted topics** — topics removed from 2025-26 syllabus (DO NOT include these)
+- **NCERT textbook content** - paragraph-by-paragraph from the official PDF
+- **NCERT solutions** - all exercise questions with answers
+- **Syllabus topics** - exact topics from CBSE 2025-26 curriculum
+- **Deleted topics** - topics removed from 2025-26 syllabus (DO NOT include these)
 
 **Fetch sources:**
 - NCERT official: `ncert.nic.in` textbook PDFs
@@ -72,7 +72,7 @@ Based on subject, use the appropriate prompt from `prompts/`:
 Spawn a **fresh critic agent** with NO context from the builder:
 - **Persona:** "You are a CBSE Class 9 board examiner with 15 years experience"
 - **Reference bar:** NCERT textbook content
-- **Comparison:** Blind A/B — critic sees our note and NCERT content without labels
+- **Comparison:** Blind A/B - critic sees our note and NCERT content without labels
 - **Checks:**
   - [ ] All topics from syllabus covered
   - [ ] No deleted topics included
@@ -99,7 +99,7 @@ After all notes for a chapter are approved:
 
 ## Subject-Specific Note Structures
 
-### Science Notes — Paragraph-by-Paragraph Nested Bullets
+### Science Notes - Paragraph-by-Paragraph Nested Bullets
 
 Each paragraph from the NCERT textbook becomes a nested bullet structure:
 
@@ -127,7 +127,7 @@ Each paragraph from the NCERT textbook becomes a nested bullet structure:
 - Include NCERT examples as nested points
 - Connect related concepts across paragraphs
 
-### SST Notes — Paragraph-by-Paragraph Nested Bullets
+### SST Notes - Paragraph-by-Paragraph Nested Bullets
 
 Same structure as Science, but adapted for humanities:
 
@@ -147,7 +147,7 @@ Same structure as Science, but adapted for humanities:
         - Relevance today
 ```
 
-### Mathematics Notes — All Topics + All Questions
+### Mathematics Notes - All Topics + All Questions
 
 ```markdown
 ## Topic: [Name]
@@ -184,7 +184,7 @@ Step-by-step solution with KaTeX
 
 ```markdown
 ---
-title: "[Chapter Name] — [Note Type]"
+title: "[Chapter Name] - [Note Type]"
 subject: [subject-id]
 chapter: [chapter-id]
 tags: [relevant-tags]
@@ -274,7 +274,7 @@ Examples:
 
 ### Social Science (20 chapters across 4 disciplines)
 
-**History — India and the Contemporary World I:**
+**History - India and the Contemporary World I:**
 
 | # | Chapter | Chapter ID |
 |---|---------|------------|
@@ -284,18 +284,18 @@ Examples:
 | 4 | Forest Society and Colonialism | `history-ch4-forest-colonialism` |
 | 5 | Pastoralists in the Modern World | `history-ch5-pastoralists` |
 
-**Geography — Contemporary India I:**
+**Geography - Contemporary India I:**
 
 | # | Chapter | Chapter ID |
 |---|---------|------------|
-| 1 | India — Size and Location | `geography-ch1-india-location` |
+| 1 | India - Size and Location | `geography-ch1-india-location` |
 | 2 | Physical Features of India | `geography-ch2-physical-features` |
 | 3 | Drainage | `geography-ch3-drainage` |
 | 4 | Climate | `geography-ch4-climate` |
 | 5 | Natural Vegetation and Wildlife | `geography-ch5-vegetation-wildlife` |
 | 6 | Population | `geography-ch6-population` |
 
-**Political Science — Democratic Politics I:**
+**Political Science - Democratic Politics I:**
 
 | # | Chapter | Chapter ID |
 |---|---------|------------|
@@ -318,24 +318,24 @@ Examples:
 
 ## Constraint Stack (Priority Order)
 
-1. **Accuracy** — Content must match NCERT 2025-26 exactly. No deleted topics. No outdated information.
-2. **Completeness** — Every subtopic from the syllabus must be covered. Every NCERT exercise question must have a solution.
-3. **GRID Compliance** — Frontmatter, file naming, index.json must be correct.
-4. **Formatting** — KaTeX renders, SVGs display, Mermaid diagrams work.
-5. **Conciseness** — Don't pad. Every bullet must add value.
+1. **Accuracy** - Content must match NCERT 2025-26 exactly. No deleted topics. No outdated information.
+2. **Completeness** - Every subtopic from the syllabus must be covered. Every NCERT exercise question must have a solution.
+3. **GRID Compliance** - Frontmatter, file naming, index.json must be correct.
+4. **Formatting** - KaTeX renders, SVGs display, Mermaid diagrams work.
+5. **Conciseness** - Don't pad. Every bullet must add value.
 
 ---
 
 ## Negative Space Instructions
 
 - Do NOT include topics deleted from 2025-26 syllabus
-- Do NOT use vague descriptions — use exact NCERT language
+- Do NOT use vague descriptions - use exact NCERT language
 - Do NOT skip NCERT exercise questions
 - Do NOT create notes without frontmatter
 - Do NOT use wrong subject/chapter IDs
 - Do NOT forget to update index.json
 - Do NOT include content beyond Grade 9 level
-- Do NOT use plain text for formulas — always KaTeX
+- Do NOT use plain text for formulas - always KaTeX
 
 ---
 
@@ -403,7 +403,7 @@ git push origin master
 
 # After completing a subject
 git add data/
-git commit -m "notes: complete [subject] — all chapters"
+git commit -m "notes: complete [subject] - all chapters"
 git push origin master
 ```
 
@@ -422,7 +422,7 @@ git push origin master
 **Critic keeps rejecting:**
 - Read the specific gap description
 - Focus on the largest gap first
-- Don't try to fix everything at once — one iteration per loop
+- Don't try to fix everything at once - one iteration per loop
 
 **NCERT content seems wrong:**
 - Cross-reference with official NCERT PDF

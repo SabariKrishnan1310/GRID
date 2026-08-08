@@ -12,7 +12,7 @@
 
 ## 1. The Gauntlet Loop
 
-**Source:** Matt Shumer, "How to Run a Gauntlet Loop" (July 2026) — [somethingbig.ai/gauntlet-loop](https://somethingbig.ai/gauntlet-loop)
+**Source:** Matt Shumer, "How to Run a Gauntlet Loop" (July 2026) - [somethingbig.ai/gauntlet-loop](https://somethingbig.ai/gauntlet-loop)
 
 The Gauntlet Loop is an iterative multi-agent prompting method where a lead agent breaks goals into pieces, each piece goes through a builder+critic loop, and the work is continuously improved against a concrete reference bar.
 
@@ -22,13 +22,13 @@ The Gauntlet Loop is an iterative multi-agent prompting method where a lead agen
 2. **Work Decomposition:** The lead agent decides how to break the goal into the smallest pieces that can be improved separately.
 3. **Builder + Critic:** Each piece gets its own builder agent and a separate critic with fresh context. The builder creates something; the critic compares it against the reference.
 4. **Iterate:** If the reference wins, the critic explains the biggest gap and sends it back to the builder. Repeat until the output wins or you stop.
-5. **No Fixed Rounds:** Don't say "do 3 rounds." Let it loop indefinitely — you stop when satisfied.
+5. **No Fixed Rounds:** Don't say "do 3 rounds." Let it loop indefinitely - you stop when satisfied.
 
 ### Key Principles
 
 - **Give the goal, not the implementation.** Tell the agent what you want, not how to make it.
 - **Give it a real bar.** Use concrete comparison targets (screenshots, real products, reference examples).
-- **Let the agent split the work.** Don't pre-decide the architecture — let the model choose.
+- **Let the agent split the work.** Don't pre-decide the architecture - let the model choose.
 - **Never let the builder grade itself.** Builder and critic must be separate agents.
 - **Use subagents with fresh context windows.** Each critic starts clean, without the builder's history.
 
@@ -46,7 +46,7 @@ Possible references or quality bars:
 Choose the strongest concrete bar that an agent can actually inspect and compare its work against.
 Write a short prompt for Claude Code or Codex.
 Give the lead agent the goal and the bar, but let it choose the approach.
-Have each critic inspect the real output, compare it directly with the bar—using blind A/B comparison when possible.
+Have each critic inspect the real output, compare it directly with the bar-using blind A/B comparison when possible.
 Keep looping until our output wins or I stop the run.
 Use subagents. Do not prescribe the architecture or fixed number of rounds.
 ```
@@ -55,13 +55,13 @@ Use subagents. Do not prescribe the architecture or fixed number of rounds.
 
 ## 2. Reasoning Topologies: Chains, Trees, Graphs
 
-**Source:** Besta et al., "Demystifying Chains, Trees, and Graphs of Thoughts" (2024) — [arxiv.org/html/2401.14295v4](https://arxiv.org/html/2401.14295v4)
+**Source:** Besta et al., "Demystifying Chains, Trees, and Graphs of Thoughts" (2024) - [arxiv.org/html/2401.14295v4](https://arxiv.org/html/2401.14295v4)
 
 ### Chain-of-Thought (CoT)
 
 Linear sequence of intermediate reasoning steps between input and output.
 
-- **Zero-shot CoT:** Add "Let's think step by step" — surprisingly effective.
+- **Zero-shot CoT:** Add "Let's think step by step" - surprisingly effective.
 - **Few-shot CoT:** Provide examples of intermediate reasoning.
 - **Self-Consistency (CoT-SC):** Sample k independent chains, return the most frequent answer.
 
@@ -69,21 +69,21 @@ Linear sequence of intermediate reasoning steps between input and output.
 
 ### Tree of Thoughts (ToT)
 
-**Source:** Yao et al., NeurIPS 2023 — [proceedings.neurips.cc](https://proceedings.neurips.cc/paper_files/paper/2023/file/271db9922b8d1f4dd7aaef84ed5ac703-Paper-Conference.pdf)
+**Source:** Yao et al., NeurIPS 2023 - [proceedings.neurips.cc](https://proceedings.neurips.cc/paper_files/paper/2023/file/271db9922b8d1f4dd7aaef84ed5ac703-Paper-Conference.pdf)
 
 Generalizes CoT by allowing branching at any point. Each node = partial solution. Uses BFS or DFS search with state evaluation.
 
 **Key Components:**
-1. **Thought decomposition** — break problem into steps
-2. **Thought generator** — propose k candidates per step
-3. **State evaluator** — score thoughts (sure/maybe/impossible)
-4. **Search algorithm** — BFS (keep b best states) or DFS (explore deepest, backtrack)
+1. **Thought decomposition** - break problem into steps
+2. **Thought generator** - propose k candidates per step
+3. **State evaluator** - score thoughts (sure/maybe/impossible)
+4. **Search algorithm** - BFS (keep b best states) or DFS (explore deepest, backtrack)
 
-**Results:** Game of 24 — GPT-4 with CoT solved 4%, ToT achieved 74%.
+**Results:** Game of 24 - GPT-4 with CoT solved 4%, ToT achieved 74%.
 
 ### Graph of Thoughts (GoT)
 
-**Source:** Besta et al., AAAI 2024 — [ojs.aaai.org](https://ojs.aaai.org/index.php/AAAI/article/view/29720)
+**Source:** Besta et al., AAAI 2024 - [ojs.aaai.org](https://ojs.aaai.org/index.php/AAAI/article/view/29720)
 
 Enables arbitrary reasoning dependencies. Thoughts can have multiple parents (aggregation) and multiple children (branching).
 
@@ -92,7 +92,7 @@ Enables arbitrary reasoning dependencies. Thoughts can have multiple parents (ag
 
 ### Framework of Thoughts (FoT)
 
-**Source:** Fricke et al., 2026 — [arxiv.org/html/2602.16512](https://arxiv.org/html/2602.16512)
+**Source:** Fricke et al., 2026 - [arxiv.org/html/2602.16512](https://arxiv.org/html/2602.16512)
 
 A general-purpose foundation framework for building dynamic reasoning schemes with built-in hyperparameter tuning, prompt optimization, parallel execution, and caching. Implements ToT, GoT, and ProbTree with optimization tools.
 
@@ -124,17 +124,17 @@ A general-purpose foundation framework for building dynamic reasoning schemes wi
 
 1. **Set effort via API, not language.** Use `reasoning.effort` parameter, not "think hard" in text.
 2. **Separate reasoning depth from answer length.** GPT-5.4 splits `reasoning.effort` and `verbosity` independently.
-3. **Exploit interleaved thinking.** Claude 4.6 can think between tool calls — give it clean tool definitions and objectives, not pre-baked algorithms.
+3. **Exploit interleaved thinking.** Claude 4.6 can think between tool calls - give it clean tool definitions and objectives, not pre-baked algorithms.
 4. **Chain-of-Symbol (CoS)** beats CoT for spatial tasks. Symbols (↑↓[x]) are more token-efficient than words for grid/map/planning logic.
 5. **Metaprompt strategy.** Use a reasoning model (GPT-5.2) to write the system prompt for a production model (GPT-4.1-mini). Higher adherence at 1/20th the cost.
 6. **DSPy 3.0 compiles prompts.** Define a Signature (Input→Output), provide 10 examples, and DSPy optimizes the prompt for the specific model. Manual prompt engineering becomes "low-level assembly language."
 
 ### What to Stop Doing
 
-- **"Think step by step"** — wasteful or counterproductive on reasoning models
-- **Elaborate persona stacking** — "You are a senior X with 15 years experience" is less effective than direct task framing
-- **Confidence-eliciting phrases** — "If you're unsure, say so" — reasoning models self-check during thinking tokens
-- **Aggressive tool-forcing language** — newer models over-trigger tools with old "ALWAYS use search" instructions
+- **"Think step by step"** - wasteful or counterproductive on reasoning models
+- **Elaborate persona stacking** - "You are a senior X with 15 years experience" is less effective than direct task framing
+- **Confidence-eliciting phrases** - "If you're unsure, say so" - reasoning models self-check during thinking tokens
+- **Aggressive tool-forcing language** - newer models over-trigger tools with old "ALWAYS use search" instructions
 
 ### Reasoning Tokens
 
@@ -213,25 +213,25 @@ Define a Signature (Input→Output), provide 10 examples, and DSPy compiles the 
 
 ### LLM Prompt Duel Optimizer (PDO)
 
-**Source:** ACL 2026 — [aclanthology.org/2026.findings-acl.490](https://aclanthology.org/2026.findings-acl.490/)
+**Source:** ACL 2026 - [aclanthology.org/2026.findings-acl.490](https://aclanthology.org/2026.findings-acl.490/)
 
 Cast prompt selection as a dueling-bandit problem. Uses Double Thompson Sampling to prioritize informative comparisons under a fixed judge budget, combined with top-performer guided mutation.
 
 ### Gradient-Guided Multi-Judge Prompt Optimization (GMPO)
 
-**Source:** ACL 2026 — [aclanthology.org/2026.acl-long.1089](https://aclanthology.org/2026.acl-long.1089/)
+**Source:** ACL 2026 - [aclanthology.org/2026.acl-long.1089](https://aclanthology.org/2026.acl-long.1089/)
 
 Uses first-order gradient approximation to score segment importance. Employs multiple lightweight judge models to reduce evaluator bias and improve generalization.
 
 ### Agent-GWO
 
-**Source:** ACL 2026 Findings — [aclanthology.org/2026.findings-acl.821](https://aclanthology.org/2026.findings-acl.821/)
+**Source:** ACL 2026 Findings - [aclanthology.org/2026.findings-acl.821](https://aclanthology.org/2026.findings-acl.821/)
 
 Uses Grey Wolf Optimizer (leader-follower mechanism) to automatically select leader agents (α, β, δ) that guide collaborative updates, converging toward robust reasoning configurations.
 
 ### Gauntlet for Prompt Regression Testing
 
-**Source:** BertBR/gauntlet — [github.com/BertBR/gauntlet](https://github.com/BertBR/gauntlet)
+**Source:** BertBR/gauntlet - [github.com/BertBR/gauntlet](https://github.com/BertBR/gauntlet)
 
 Production prompt regression testing for agentic flows. LLM-as-judge over red-team scenarios (prompt injection, data exfiltration, off-topic drift, step-skipping, consent refusal) with optional self-consistency runs.
 

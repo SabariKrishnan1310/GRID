@@ -1,4 +1,4 @@
-# SKILL: GRID — Grade Research & Interactive Diary
+# SKILL: GRID - Gathering Resources In Detail
 
 > **Purpose:** Author, maintain, and publish notes for the GRID notes app.
 > **Trigger:** Any task involving creating, editing, or managing notes in the GRID system.
@@ -98,23 +98,23 @@ updated: 2026-08-08T10:00:00Z
 ## Tag Vocabulary
 
 ### Core Tags (use these first)
-- `formula` — contains mathematical formulas
-- `diagram` — contains visual diagrams
-- `definition` — defines a concept
-- `theorem` — states a theorem or law
-- `example` — worked examples
-- `homework` — practice problems
-- `comparison` — compares concepts
-- `summary` — chapter/section summary
-- `diagram::geometry` — geometry-specific diagrams
-- `diagram::graph` — graphs/charts
+- `formula` - contains mathematical formulas
+- `diagram` - contains visual diagrams
+- `definition` - defines a concept
+- `theorem` - states a theorem or law
+- `example` - worked examples
+- `homework` - practice problems
+- `comparison` - compares concepts
+- `summary` - chapter/section summary
+- `diagram::geometry` - geometry-specific diagrams
+- `diagram::graph` - graphs/charts
 
 ### Custom Tags (agent can create)
 Any freeform string is allowed. Examples:
-- `board-exam-frequent` — appears frequently in board exams
-- `important-chapter` — chapter-level importance marker
-- `ncert-textbook` — aligned with NCERT textbook
-- `practical` — related to practical/lab work
+- `board-exam-frequent` - appears frequently in board exams
+- `important-chapter` - chapter-level importance marker
+- `ncert-textbook` - aligned with NCERT textbook
+- `practical` - related to practical/lab work
 
 ---
 
@@ -137,17 +137,17 @@ Any freeform string is allowed. Examples:
 ## Chapter IDs
 
 ### Physics
-- `ch7-motion` — Ch.7 Motion
-- `ch8-force-and-laws` — Ch.8 Force & Laws of Motion
-- `ch10-mechanical-properties` — Ch.10 Mechanical Properties of Solids
+- `ch7-motion` - Ch.7 Motion
+- `ch8-force-and-laws` - Ch.8 Force & Laws of Motion
+- `ch10-mechanical-properties` - Ch.10 Mechanical Properties of Solids
 
 ### Chemistry
-- `ch3-atoms-and-molecules` — Ch.3 Atoms & Molecules
-- `ch4-structure-of-atom` — Ch.4 Structure of Atom
+- `ch3-atoms-molecules` - Ch.3 Atoms & Molecules
+- `ch4-structure-of-atom` - Ch.4 Structure of Atom
 
 ### Biology
-- `ch1-fundamental-unit-of-life` — Ch.1 Fundamental Unit of Life
-- `ch2-tissues` — Ch.2 Tissues
+- `ch1-fundamental-unit-of-life` - Ch.1 Fundamental Unit of Life
+- `ch2-tissues` - Ch.2 Tissues
 
 ### Mathematics
 - `ch1-number-systems` through `ch8-quadrilaterals`
@@ -161,12 +161,12 @@ Any freeform string is allowed. Examples:
 
 ### KaTeX Math
 
-**Inline math** — wrap in single `$`:
+**Inline math** - wrap in single `$`:
 ```markdown
 The equation $E = mc^2$ shows mass-energy equivalence.
 ```
 
-**Display math** — wrap in double `$$`:
+**Display math** - wrap in double `$$`:
 ```markdown
 $$
 F = ma
@@ -317,21 +317,21 @@ After creating or editing a note, update `data/index.json`:
 
 Before publishing any note, verify:
 
-- [ ] **Frontmatter complete** — all required fields present
-- [ ] **Title is descriptive** — not just "Chapter 7 Notes"
-- [ ] **Content depth** — explains concepts, not just lists
-- [ ] **Formulas correct** — KaTeX renders properly
-- [ ] **Diagrams clear** — SVGs are labeled and readable
-- [ ] **Examples included** — at least 2-3 worked examples
-- [ ] **Key terms bolded** — important terms are highlighted
-- [ ] **Tables used** — for comparisons and data
-- [ ] **Blockquotes** — for laws, theorems, key statements
-- [ ] **Tags assigned** — relevant tags from vocabulary
-- [ ] **Color label** — if the note is exam-critical or reference
-- [ ] **Index updated** — note entry added to index.json
-- [ ] **File named correctly** — kebab-case slug
-- [ ] **Spell check** — no typos in content
-- [ ] **Math verified** — all formulas render without errors
+- [ ] **Frontmatter complete** - all required fields present
+- [ ] **Title is descriptive** - not just "Chapter 7 Notes"
+- [ ] **Content depth** - explains concepts, not just lists
+- [ ] **Formulas correct** - KaTeX renders properly
+- [ ] **Diagrams clear** - SVGs are labeled and readable
+- [ ] **Examples included** - at least 2-3 worked examples
+- [ ] **Key terms bolded** - important terms are highlighted
+- [ ] **Tables used** - for comparisons and data
+- [ ] **Blockquotes** - for laws, theorems, key statements
+- [ ] **Tags assigned** - relevant tags from vocabulary
+- [ ] **Color label** - if the note is exam-critical or reference
+- [ ] **Index updated** - note entry added to index.json
+- [ ] **File named correctly** - kebab-case slug
+- [ ] **Spell check** - no typos in content
+- [ ] **Math verified** - all formulas render without errors
 
 ---
 
@@ -411,9 +411,9 @@ git push origin main
 ```
 
 **Commit message convention:**
-- `notes: add <title>` — new note
-- `notes: update <title>` — edit existing
-- `notes: reorganize <subject>` — structural changes
+- `notes: add <title>` - new note
+- `notes: update <title>` - edit existing
+- `notes: reorganize <subject>` - structural changes
 
 ---
 
@@ -437,7 +437,7 @@ Copy the relevant template, fill in the content, save with correct filename.
 ## Edge Cases
 
 ### Chapter doesn't exist yet
-Create the chapter directory and add the note. The `subjects.json` defines expected chapters — follow that structure.
+Create the chapter directory and add the note. The `subjects.json` defines expected chapters - follow that structure.
 
 ### Multiple notes per chapter
 Allowed. Each note covers a sub-topic. Use `pinned: true` for the most important note.

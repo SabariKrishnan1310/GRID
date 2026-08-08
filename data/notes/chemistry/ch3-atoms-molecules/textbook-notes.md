@@ -1,7 +1,7 @@
 ---
-title: "Atoms and Molecules — Textbook Notes"
+title: "Atoms and Molecules - Textbook Notes"
 subject: chemistry
-chapter: ch3-atoms-and-molecules
+chapter: ch3-atoms-molecules
 tags: [summary, ncert-textbook, definition]
 color: yellow
 pinned: false
@@ -34,7 +34,7 @@ updated: 2026-08-08T10:00:00Z
 ## 3.2 What is an Atom?
 
 - Smallest particle of an element that retains its identity during chemical reactions
-- Atoms are extremely small — radius = 10⁻¹⁰ m (1 Å)
+- Atoms are extremely small - radius = 10⁻¹⁰ m (1 Å)
 - **Size**: Hydrogen atom smallest (radius ~10⁻¹¹ m); largest atoms are francium/radium (~3.6 × 10⁻¹⁰ m)
 - Atoms are so small they cannot be seen even with optical microscope
 - **Symbols**: First letter (capital) + second letter (small) if needed → Fe, Ca, Na

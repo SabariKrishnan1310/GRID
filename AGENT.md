@@ -1,4 +1,4 @@
-# AGENT.md — How to Use the GRID Platform
+# AGENT.md - How to Use the GRID Platform
 
 > **Read this file first.** It explains everything you need to know to create, edit, and manage notes in the GRID system.
 
@@ -6,7 +6,7 @@
 
 ## What is GRID?
 
-GRID (Grade Research & Interactive Diary) is a static notes app for 9th-grade students. It's hosted on GitHub Pages. You (the AI agent) write the notes as Markdown files. Students read them in the browser.
+GRID (Gathering Resources In Detail) is a static notes app for 9th-grade students. It's hosted on GitHub Pages. You (the AI agent) write the notes as Markdown files. Students read them in the browser.
 
 **The flow:**
 ```
@@ -52,7 +52,7 @@ GRID/
 │       │   │   └── newtons-first-law.md    ← YOU CREATE THESE
 │       │   └── ch8-force-and-laws/
 │       ├── chemistry/
-│       │   ├── ch3-atoms-and-molecules/
+│       │   ├── ch3-atoms-molecules/
 │       │   └── ch4-structure-of-atom/
 │       ├── biology/
 │       │   ├── ch1-fundamental-unit-of-life/
@@ -135,16 +135,16 @@ updated: 2026-08-08T10:00:00Z
 ```
 
 **Required fields:**
-- `title` — human-readable title
-- `subject` — must match a subject ID from `data/subjects.json`
-- `chapter` — must match a chapter ID from `data/subjects.json`
-- `created` — ISO timestamp
-- `updated` — ISO timestamp (update this when editing)
+- `title` - human-readable title
+- `subject` - must match a subject ID from `data/subjects.json`
+- `chapter` - must match a chapter ID from `data/subjects.json`
+- `created` - ISO timestamp
+- `updated` - ISO timestamp (update this when editing)
 
 **Optional fields:**
-- `tags` — array of tags (see tag vocabulary in SKILL.md)
-- `color` — `red` `green` `yellow` `blue` `purple`
-- `pinned` — `true` to pin to top of chapter list
+- `tags` - array of tags (see tag vocabulary in SKILL.md)
+- `color` - `red` `green` `yellow` `blue` `purple`
+- `pinned` - `true` to pin to top of chapter list
 
 ### 4. Write the Content
 
@@ -249,7 +249,7 @@ The site auto-deploys from `master` branch.
 
 ```bash
 git add data/
-git commit -m "notes: update Newton's First Law — add examples"
+git commit -m "notes: update Newton's First Law - add examples"
 git push origin master
 ```
 
@@ -294,7 +294,7 @@ git push origin master
 - `ch10-mechanical-properties`
 
 ### Chemistry
-- `ch3-atoms-and-molecules`
+- `ch3-atoms-molecules`
 - `ch4-structure-of-atom`
 
 ### Biology
@@ -330,27 +330,27 @@ git push origin master
 
 | Color | ID | Meaning |
 |-------|----|---------|
-| Red | `red` | Exam Priority — study FIRST |
-| Green | `green` | Mastered — done |
-| Yellow | `yellow` | In Progress — needs work |
-| Blue | `blue` | Optional — low priority |
-| Purple | `purple` | Reference — formulas, cheat sheets |
+| Red | `red` | Exam Priority - study FIRST |
+| Green | `green` | Mastered - done |
+| Yellow | `yellow` | In Progress - needs work |
+| Blue | `blue` | Optional - low priority |
+| Purple | `purple` | Reference - formulas, cheat sheets |
 
 ---
 
 ## Tag Vocabulary
 
 **Core tags** (use first):
-- `formula` — contains math formulas
-- `diagram` — contains diagrams
-- `definition` — defines a concept
-- `theorem` — states a theorem/law
-- `example` — worked examples
-- `homework` — practice problems
-- `comparison` — compares concepts
-- `summary` — chapter summary
-- `diagram::geometry` — geometry diagrams
-- `diagram::graph` — graphs/charts
+- `formula` - contains math formulas
+- `diagram` - contains diagrams
+- `definition` - defines a concept
+- `theorem` - states a theorem/law
+- `example` - worked examples
+- `homework` - practice problems
+- `comparison` - compares concepts
+- `summary` - chapter summary
+- `diagram::geometry` - geometry diagrams
+- `diagram::graph` - graphs/charts
 
 **Custom tags** (allowed):
 - `board-exam-frequent`
@@ -372,16 +372,16 @@ $$
 ```
 
 **Common commands:**
-- `\frac{a}{b}` — fraction
-- `\sqrt{x}` — square root
-- `x^2` — superscript
-- `x_1` — subscript
-- `\sum_{i=1}^{n}` — summation
-- `\vec{F}` — vector
-- `\hat{i}` — unit vector
-- `\alpha, \beta, \gamma` — Greek letters
-- `\leq, \geq, \neq` — comparisons
-- `\rightarrow, \leftarrow` — arrows
+- `\frac{a}{b}` - fraction
+- `\sqrt{x}` - square root
+- `x^2` - superscript
+- `x_1` - subscript
+- `\sum_{i=1}^{n}` - summation
+- `\vec{F}` - vector
+- `\hat{i}` - unit vector
+- `\alpha, \beta, \gamma` - Greek letters
+- `\leq, \geq, \neq` - comparisons
+- `\rightarrow, \leftarrow` - arrows
 
 ---
 
@@ -461,14 +461,14 @@ sequenceDiagram
 
 ```
 notes: add {title} to {subject}/{chapter}
-notes: update {title} — {what changed}
+notes: update {title} - {what changed}
 notes: remove {title} from {subject}/{chapter}
 notes: reorganize {subject}
 ```
 
 Examples:
 - `notes: add Newton's First Law to physics/ch7-motion`
-- `notes: update Quadratic Formula — add worked examples`
+- `notes: update Quadratic Formula - add worked examples`
 - `notes: remove old draft from math/ch2-polynomials`
 
 ---
@@ -494,14 +494,14 @@ Before pushing, verify:
 
 ## Common Mistakes to Avoid
 
-1. **Wrong directory** — `data/notes/physics/ch7/` doesn't exist, use `data/notes/physics/ch7-motion/`
-2. **Missing frontmatter** — every note MUST start with `---`
-3. **Wrong subject ID** — use `social-science` not `Social Science`
-4. **Wrong chapter ID** — use `ch7-motion` not `Chapter 7`
-5. **Forgetting index.json** — the app won't show notes without it
-6. **Not updating timestamp** — always update `updated` when editing
-7. **Emoji in filenames** — use kebab-case, no special characters
-8. **Forgetting to push** — changes don't deploy until you push
+1. **Wrong directory** - `data/notes/physics/ch7/` doesn't exist, use `data/notes/physics/ch7-motion/`
+2. **Missing frontmatter** - every note MUST start with `---`
+3. **Wrong subject ID** - use `social-science` not `Social Science`
+4. **Wrong chapter ID** - use `ch7-motion` not `Chapter 7`
+5. **Forgetting index.json** - the app won't show notes without it
+6. **Not updating timestamp** - always update `updated` when editing
+7. **Emoji in filenames** - use kebab-case, no special characters
+8. **Forgetting to push** - changes don't deploy until you push
 
 ---
 

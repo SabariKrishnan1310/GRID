@@ -49,7 +49,7 @@ EVERY question from NCERT exercises with COMPLETE step-by-step solutions. Color:
 
 Format:
 ```markdown
-## Exercise [X.Y] — Questions & Solutions
+## Exercise [X.Y] - Questions & Solutions
 
 ### Q1. [Question text from NCERT]
 
@@ -112,8 +112,8 @@ Format:
 
 ## Content Rules
 
-1. Use KaTeX for ALL math — never plain text
-2. Show COMPLETE working — every step
+1. Use KaTeX for ALL math - never plain text
+2. Show COMPLETE working - every step
 3. Define variables after introducing a formula
 4. Include units for physical quantities
 5. Every NCERT exercise question MUST have a solution
@@ -154,7 +154,7 @@ Comparisons: $\leq, \geq, \neq$
 
 ```markdown
 ---
-title: "[Chapter Name] — [Note Type]"
+title: "[Chapter Name] - [Note Type]"
 subject: mathematics
 chapter: [chapter-id]
 tags: [tags-from-vocabulary]

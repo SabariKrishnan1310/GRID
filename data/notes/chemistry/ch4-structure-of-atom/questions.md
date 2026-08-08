@@ -1,5 +1,5 @@
 ---
-title: "Structure of the Atom — NCERT Exercise Questions & Solutions"
+title: "Structure of the Atom - NCERT Exercise Questions & Solutions"
 subject: chemistry
 chapter: ch4-structure-of-atom
 tags: [homework, ncert-textbook, example, board-exam-frequent]
@@ -9,7 +9,7 @@ created: 2026-08-08T10:00:00Z
 updated: 2026-08-08T10:00:00Z
 ---
 
-## Exercise 4.1 — Q1
+## Exercise 4.1 - Q1
 
 ### Q1. What are the canal rays?
 
@@ -22,7 +22,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 4.1 — Q2
+## Exercise 4.1 - Q2
 
 ### Q2. If an atom contains 1 proton, 1 neutron, and 1 electron, what will be the mass number of the atom?
 
@@ -33,7 +33,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 4.2 — Q1
+## Exercise 4.2 - Q1
 
 ### Q1. If Z = 3, what would be the valency of the element? Also, name the element which has the same valency.
 
@@ -46,7 +46,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 4.2 — Q2
+## Exercise 4.2 - Q2
 
 ### Q2. Name the element which has the same number of electrons as its outermost shell.
 
@@ -59,7 +59,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 4.3 — Q1
+## Exercise 4.3 - Q1
 
 ### Q1. Write the electronic configuration of:
 (a) Na⁺
@@ -85,7 +85,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 4.4 — Q1
+## Exercise 4.4 - Q1
 
 ### Q1. For the following ions, write the electronic configuration and also indicate the group and period:
 (a) Na⁺
@@ -126,7 +126,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 4.5 — Q1
+## Exercise 4.5 - Q1
 
 ### Q1. What is the relation between the atomic number and mass number?
 
@@ -139,7 +139,7 @@ updated: 2026-08-08T10:00:00Z
 
 ---
 
-## Exercise 4.5 — Q2
+## Exercise 4.5 - Q2
 
 ### Q2. How will you find the number of neutrons from the atomic number and mass number?
 

@@ -1,10 +1,10 @@
-# 🎯 MISSION: APOTHEOSIS — CLASS IX MID-TERM EXAM
+# 🎯 MISSION: APOTHEOSIS - CLASS IX MID-TERM EXAM
 
 > *"Rise above the ordinary. Become the best version of yourself."*
 
 **Student:** Sabari Krishnan
 **Exam Dates:** Aug 28 - Sep 11, 2026
-**Goal:** 100% SCORE — No compromises
+**Goal:** 100% SCORE - No compromises
 **Started:** August 6, 2026 (Thursday)
 **Mission Status:** 🚀 IN PROGRESS
 
@@ -14,7 +14,7 @@
 
 | Time | Activity |
 |------|----------|
-| 5:20 AM | Wake up — No snooze |
+| 5:20 AM | Wake up - No snooze |
 | 5:20 - 6:15 AM | **Study Block 1** (55 min) |
 | 6:15 - 6:30 AM | Get ready FAST |
 | 6:30 AM | **LEAVE FOR SCHOOL** |
@@ -24,7 +24,7 @@
 | 7:30 PM | Back home (after dinner/break) |
 | 8:00 - 8:30 PM | **Programming** (30 min) |
 | 8:30 - 10:30 PM | **Study Block 4** (2 hrs) |
-| 11:00 PM | Sleep — 5 hours only |
+| 11:00 PM | Sleep - 5 hours only |
 
 **Daily Study: ~6 hours 25 min | Sleep: 5 hours**
 
@@ -351,24 +351,24 @@
 
 **Current Date:** August 8, 2026 (Saturday)
 **Current Time:** 9:00 AM
-**Current Task:** CHEMISTRY — Active studying 🔥
+**Current Task:** CHEMISTRY - Active studying 🔥
 **Mood:** STRATEGIC & FOCUSED
 
 ### Progress Update:
-- ✅ SST COPYWORK — COMPLETE
-- ⏸️ Kannada copywork — Stashed for weekday evenings
-- 🔄 **Chemistry — STARTING NOW**
+- ✅ SST COPYWORK - COMPLETE
+- ⏸️ Kannada copywork - Stashed for weekday evenings
+- 🔄 **Chemistry - STARTING NOW**
 - 🧠 Weekend strategy: Active studying > Copywork
 
 ### Today's Battle Plan (Aug 8 - Saturday):
-- [ ] 9:00 AM - 12:00 PM — Chemistry Ch.3 Atoms & Molecules
-- [ ] 12:00 - 1:00 PM — Lunch break
-- [ ] 1:00 - 4:00 PM — Chemistry Ch.4 Structure of Atom
-- [ ] 4:00 - 5:30 PM — Chemistry revision + practice questions
-- [ ] 5:30 - 6:30 PM — Bio Ch.1 Fundamental Unit of Life
+- [ ] 9:00 AM - 12:00 PM - Chemistry Ch.3 Atoms & Molecules
+- [ ] 12:00 - 1:00 PM - Lunch break
+- [ ] 1:00 - 4:00 PM - Chemistry Ch.4 Structure of Atom
+- [ ] 4:00 - 5:30 PM - Chemistry revision + practice questions
+- [ ] 5:30 - 6:30 PM - Bio Ch.1 Fundamental Unit of Life
 - [ ] 6:30 PM - break/dinner
-- [ ] 8:00 - 8:30 PM — Programming
-- [ ] 8:30 - 10:30 PM — Bio Ch.2 Tissues
+- [ ] 8:00 - 8:30 PM - Programming
+- [ ] 8:30 - 10:30 PM - Bio Ch.2 Tissues
 
 **SST: ✅ | Chemistry: 🔄 | Bio: ⬜ | Kannada: ⏸️**
 

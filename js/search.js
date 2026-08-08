@@ -1,5 +1,5 @@
 /* ============================================
-   GRID — Search Module
+   GRID - Search Module
    Full-text search with highlights
    ============================================ */
 

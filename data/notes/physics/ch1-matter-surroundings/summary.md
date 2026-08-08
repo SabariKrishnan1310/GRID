@@ -1,5 +1,5 @@
 ---
-title: "Matter in Our Surroundings — Summary"
+title: "Matter in Our Surroundings - Summary"
 subject: physics
 chapter: ch1-matter-surroundings
 tags: [summary, ncert-textbook, important-chapter]
@@ -74,7 +74,7 @@ updated: 2026-08-08T10:00:00Z
 
 ## Evaporation
 
-- Surface phenomenon — occurs only at the surface of liquid
+- Surface phenomenon - occurs only at the surface of liquid
 - Occurs at all temperatures (not just at boiling point)
 - Rate of evaporation increases with:
   - Increase in temperature

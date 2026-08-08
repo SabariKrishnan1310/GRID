@@ -1,5 +1,5 @@
 /* ============================================
-   GRID — Renderer Module
+   GRID - Renderer Module
    Markdown → HTML with KaTeX, Mermaid, SVG
    ============================================ */
 

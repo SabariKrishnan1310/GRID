@@ -1,5 +1,5 @@
 ---
-title: "Motion — Summary"
+title: "Motion - Summary"
 subject: physics
 chapter: ch7-motion
 tags: [summary, ncert-textbook, important-chapter]
