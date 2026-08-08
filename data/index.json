@@ -56,6 +56,61 @@
       "pinned": false,
       "created": "2026-08-08T10:00:00Z",
       "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "summary",
+      "title": "Atoms and Molecules — Summary",
+      "subject": "chemistry",
+      "chapter": "ch3-atoms-and-molecules",
+      "tags": ["summary", "ncert-textbook", "important-chapter"],
+      "color": "green",
+      "pinned": true,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "textbook-notes",
+      "title": "Atoms and Molecules — Textbook Notes",
+      "subject": "chemistry",
+      "chapter": "ch3-atoms-and-molecules",
+      "tags": ["summary", "ncert-textbook", "definition"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "concepts",
+      "title": "Atoms and Molecules — Detailed Concepts",
+      "subject": "chemistry",
+      "chapter": "ch3-atoms-and-molecules",
+      "tags": ["definition", "ncert-textbook", "important-chapter", "board-exam-frequent"],
+      "color": "yellow",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "questions",
+      "title": "Atoms and Molecules — NCERT Exercise Questions & Solutions",
+      "subject": "chemistry",
+      "chapter": "ch3-atoms-and-molecules",
+      "tags": ["homework", "ncert-textbook", "example", "board-exam-frequent"],
+      "color": "blue",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
+    },
+    {
+      "id": "important-questions",
+      "title": "Atoms and Molecules — Formulas & Important Questions",
+      "subject": "chemistry",
+      "chapter": "ch3-atoms-and-molecules",
+      "tags": ["formula", "example", "board-exam-frequent", "important-chapter"],
+      "color": "red",
+      "pinned": false,
+      "created": "2026-08-08T10:00:00Z",
+      "updated": "2026-08-08T10:00:00Z"
     }
   ]
 }
